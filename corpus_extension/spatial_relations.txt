@@ -1,0 +1,912 @@
+the cup is above the shelf . the shelf is below the cup .
+the cup is inside the shelf . the shelf contains the cup .
+the cup is left of the shelf . the shelf is right of the cup .
+the cup is in front of the shelf . the shelf is behind the cup .
+the cup is on top of the shelf . the shelf is under the cup .
+the cup is beside the shelf . the shelf is beside the cup .
+the cup is above the jar . the jar is below the cup .
+the cup is inside the jar . the jar contains the cup .
+the cup is left of the jar . the jar is right of the cup .
+the cup is in front of the jar . the jar is behind the cup .
+the cup is on top of the jar . the jar is under the cup .
+the cup is beside the jar . the jar is beside the cup .
+the cup is above the chair . the chair is below the cup .
+the cup is inside the chair . the chair contains the cup .
+the cup is left of the chair . the chair is right of the cup .
+the cup is in front of the chair . the chair is behind the cup .
+the cup is on top of the chair . the chair is under the cup .
+the cup is beside the chair . the chair is beside the cup .
+the cup is above the table . the table is below the cup .
+the cup is inside the table . the table contains the cup .
+the cup is left of the table . the table is right of the cup .
+the cup is in front of the table . the table is behind the cup .
+the cup is on top of the table . the table is under the cup .
+the cup is beside the table . the table is beside the cup .
+the cup is above the bike . the bike is below the cup .
+the cup is inside the bike . the bike contains the cup .
+the cup is left of the bike . the bike is right of the cup .
+the cup is in front of the bike . the bike is behind the cup .
+the cup is on top of the bike . the bike is under the cup .
+the cup is beside the bike . the bike is beside the cup .
+the cup is above the clock . the clock is below the cup .
+the cup is inside the clock . the clock contains the cup .
+the cup is left of the clock . the clock is right of the cup .
+the cup is in front of the clock . the clock is behind the cup .
+the cup is on top of the clock . the clock is under the cup .
+the cup is beside the clock . the clock is beside the cup .
+the cup is above the mirror . the mirror is below the cup .
+the cup is inside the mirror . the mirror contains the cup .
+the cup is left of the mirror . the mirror is right of the cup .
+the cup is in front of the mirror . the mirror is behind the cup .
+the cup is on top of the mirror . the mirror is under the cup .
+the cup is beside the mirror . the mirror is beside the cup .
+the cup is above the stool . the stool is below the cup .
+the cup is inside the stool . the stool contains the cup .
+the cup is left of the stool . the stool is right of the cup .
+the cup is in front of the stool . the stool is behind the cup .
+the cup is on top of the stool . the stool is under the cup .
+the cup is beside the stool . the stool is beside the cup .
+the cup is above the basket . the basket is below the cup .
+the cup is inside the basket . the basket contains the cup .
+the cup is left of the basket . the basket is right of the cup .
+the cup is in front of the basket . the basket is behind the cup .
+the cup is on top of the basket . the basket is under the cup .
+the cup is beside the basket . the basket is beside the cup .
+the cup is above the lantern . the lantern is below the cup .
+the cup is inside the lantern . the lantern contains the cup .
+the cup is left of the lantern . the lantern is right of the cup .
+the cup is in front of the lantern . the lantern is behind the cup .
+the cup is on top of the lantern . the lantern is under the cup .
+the cup is beside the lantern . the lantern is beside the cup .
+the cup is above the bench . the bench is below the cup .
+the cup is inside the bench . the bench contains the cup .
+the cup is left of the bench . the bench is right of the cup .
+the cup is in front of the bench . the bench is behind the cup .
+the cup is on top of the bench . the bench is under the cup .
+the cup is beside the bench . the bench is beside the cup .
+the cup is above the vase . the vase is below the cup .
+the cup is inside the vase . the vase contains the cup .
+the cup is left of the vase . the vase is right of the cup .
+the cup is in front of the vase . the vase is behind the cup .
+the cup is on top of the vase . the vase is under the cup .
+the cup is beside the vase . the vase is beside the cup .
+the cup is above the rug . the rug is below the cup .
+the cup is inside the rug . the rug contains the cup .
+the cup is left of the rug . the rug is right of the cup .
+the cup is in front of the rug . the rug is behind the cup .
+the cup is on top of the rug . the rug is under the cup .
+the cup is beside the rug . the rug is beside the cup .
+the cup is above the ladder . the ladder is below the cup .
+the cup is inside the ladder . the ladder contains the cup .
+the cup is left of the ladder . the ladder is right of the cup .
+the cup is in front of the ladder . the ladder is behind the cup .
+the cup is on top of the ladder . the ladder is under the cup .
+the cup is beside the ladder . the ladder is beside the cup .
+the cup is above the kettle . the kettle is below the cup .
+the cup is inside the kettle . the kettle contains the cup .
+the cup is left of the kettle . the kettle is right of the cup .
+the cup is in front of the kettle . the kettle is behind the cup .
+the cup is on top of the kettle . the kettle is under the cup .
+the cup is beside the kettle . the kettle is beside the cup .
+the shelf is above the jar . the jar is below the shelf .
+the shelf is inside the jar . the jar contains the shelf .
+the shelf is left of the jar . the jar is right of the shelf .
+the shelf is in front of the jar . the jar is behind the shelf .
+the shelf is on top of the jar . the jar is under the shelf .
+the shelf is beside the jar . the jar is beside the shelf .
+the shelf is above the chair . the chair is below the shelf .
+the shelf is inside the chair . the chair contains the shelf .
+the shelf is left of the chair . the chair is right of the shelf .
+the shelf is in front of the chair . the chair is behind the shelf .
+the shelf is on top of the chair . the chair is under the shelf .
+the shelf is beside the chair . the chair is beside the shelf .
+the shelf is above the table . the table is below the shelf .
+the shelf is inside the table . the table contains the shelf .
+the shelf is left of the table . the table is right of the shelf .
+the shelf is in front of the table . the table is behind the shelf .
+the shelf is on top of the table . the table is under the shelf .
+the shelf is beside the table . the table is beside the shelf .
+the shelf is above the bike . the bike is below the shelf .
+the shelf is inside the bike . the bike contains the shelf .
+the shelf is left of the bike . the bike is right of the shelf .
+the shelf is in front of the bike . the bike is behind the shelf .
+the shelf is on top of the bike . the bike is under the shelf .
+the shelf is beside the bike . the bike is beside the shelf .
+the shelf is above the clock . the clock is below the shelf .
+the shelf is inside the clock . the clock contains the shelf .
+the shelf is left of the clock . the clock is right of the shelf .
+the shelf is in front of the clock . the clock is behind the shelf .
+the shelf is on top of the clock . the clock is under the shelf .
+the shelf is beside the clock . the clock is beside the shelf .
+the shelf is above the mirror . the mirror is below the shelf .
+the shelf is inside the mirror . the mirror contains the shelf .
+the shelf is left of the mirror . the mirror is right of the shelf .
+the shelf is in front of the mirror . the mirror is behind the shelf .
+the shelf is on top of the mirror . the mirror is under the shelf .
+the shelf is beside the mirror . the mirror is beside the shelf .
+the shelf is above the stool . the stool is below the shelf .
+the shelf is inside the stool . the stool contains the shelf .
+the shelf is left of the stool . the stool is right of the shelf .
+the shelf is in front of the stool . the stool is behind the shelf .
+the shelf is on top of the stool . the stool is under the shelf .
+the shelf is beside the stool . the stool is beside the shelf .
+the shelf is above the basket . the basket is below the shelf .
+the shelf is inside the basket . the basket contains the shelf .
+the shelf is left of the basket . the basket is right of the shelf .
+the shelf is in front of the basket . the basket is behind the shelf .
+the shelf is on top of the basket . the basket is under the shelf .
+the shelf is beside the basket . the basket is beside the shelf .
+the shelf is above the lantern . the lantern is below the shelf .
+the shelf is inside the lantern . the lantern contains the shelf .
+the shelf is left of the lantern . the lantern is right of the shelf .
+the shelf is in front of the lantern . the lantern is behind the shelf .
+the shelf is on top of the lantern . the lantern is under the shelf .
+the shelf is beside the lantern . the lantern is beside the shelf .
+the shelf is above the bench . the bench is below the shelf .
+the shelf is inside the bench . the bench contains the shelf .
+the shelf is left of the bench . the bench is right of the shelf .
+the shelf is in front of the bench . the bench is behind the shelf .
+the shelf is on top of the bench . the bench is under the shelf .
+the shelf is beside the bench . the bench is beside the shelf .
+the shelf is above the vase . the vase is below the shelf .
+the shelf is inside the vase . the vase contains the shelf .
+the shelf is left of the vase . the vase is right of the shelf .
+the shelf is in front of the vase . the vase is behind the shelf .
+the shelf is on top of the vase . the vase is under the shelf .
+the shelf is beside the vase . the vase is beside the shelf .
+the shelf is above the rug . the rug is below the shelf .
+the shelf is inside the rug . the rug contains the shelf .
+the shelf is left of the rug . the rug is right of the shelf .
+the shelf is in front of the rug . the rug is behind the shelf .
+the shelf is on top of the rug . the rug is under the shelf .
+the shelf is beside the rug . the rug is beside the shelf .
+the shelf is above the ladder . the ladder is below the shelf .
+the shelf is inside the ladder . the ladder contains the shelf .
+the shelf is left of the ladder . the ladder is right of the shelf .
+the shelf is in front of the ladder . the ladder is behind the shelf .
+the shelf is on top of the ladder . the ladder is under the shelf .
+the shelf is beside the ladder . the ladder is beside the shelf .
+the shelf is above the kettle . the kettle is below the shelf .
+the shelf is inside the kettle . the kettle contains the shelf .
+the shelf is left of the kettle . the kettle is right of the shelf .
+the shelf is in front of the kettle . the kettle is behind the shelf .
+the shelf is on top of the kettle . the kettle is under the shelf .
+the shelf is beside the kettle . the kettle is beside the shelf .
+the jar is above the chair . the chair is below the jar .
+the jar is inside the chair . the chair contains the jar .
+the jar is left of the chair . the chair is right of the jar .
+the jar is in front of the chair . the chair is behind the jar .
+the jar is on top of the chair . the chair is under the jar .
+the jar is beside the chair . the chair is beside the jar .
+the jar is above the table . the table is below the jar .
+the jar is inside the table . the table contains the jar .
+the jar is left of the table . the table is right of the jar .
+the jar is in front of the table . the table is behind the jar .
+the jar is on top of the table . the table is under the jar .
+the jar is beside the table . the table is beside the jar .
+the jar is above the bike . the bike is below the jar .
+the jar is inside the bike . the bike contains the jar .
+the jar is left of the bike . the bike is right of the jar .
+the jar is in front of the bike . the bike is behind the jar .
+the jar is on top of the bike . the bike is under the jar .
+the jar is beside the bike . the bike is beside the jar .
+the jar is above the clock . the clock is below the jar .
+the jar is inside the clock . the clock contains the jar .
+the jar is left of the clock . the clock is right of the jar .
+the jar is in front of the clock . the clock is behind the jar .
+the jar is on top of the clock . the clock is under the jar .
+the jar is beside the clock . the clock is beside the jar .
+the jar is above the mirror . the mirror is below the jar .
+the jar is inside the mirror . the mirror contains the jar .
+the jar is left of the mirror . the mirror is right of the jar .
+the jar is in front of the mirror . the mirror is behind the jar .
+the jar is on top of the mirror . the mirror is under the jar .
+the jar is beside the mirror . the mirror is beside the jar .
+the jar is above the stool . the stool is below the jar .
+the jar is inside the stool . the stool contains the jar .
+the jar is left of the stool . the stool is right of the jar .
+the jar is in front of the stool . the stool is behind the jar .
+the jar is on top of the stool . the stool is under the jar .
+the jar is beside the stool . the stool is beside the jar .
+the jar is above the basket . the basket is below the jar .
+the jar is inside the basket . the basket contains the jar .
+the jar is left of the basket . the basket is right of the jar .
+the jar is in front of the basket . the basket is behind the jar .
+the jar is on top of the basket . the basket is under the jar .
+the jar is beside the basket . the basket is beside the jar .
+the jar is above the lantern . the lantern is below the jar .
+the jar is inside the lantern . the lantern contains the jar .
+the jar is left of the lantern . the lantern is right of the jar .
+the jar is in front of the lantern . the lantern is behind the jar .
+the jar is on top of the lantern . the lantern is under the jar .
+the jar is beside the lantern . the lantern is beside the jar .
+the jar is above the bench . the bench is below the jar .
+the jar is inside the bench . the bench contains the jar .
+the jar is left of the bench . the bench is right of the jar .
+the jar is in front of the bench . the bench is behind the jar .
+the jar is on top of the bench . the bench is under the jar .
+the jar is beside the bench . the bench is beside the jar .
+the jar is above the vase . the vase is below the jar .
+the jar is inside the vase . the vase contains the jar .
+the jar is left of the vase . the vase is right of the jar .
+the jar is in front of the vase . the vase is behind the jar .
+the jar is on top of the vase . the vase is under the jar .
+the jar is beside the vase . the vase is beside the jar .
+the jar is above the rug . the rug is below the jar .
+the jar is inside the rug . the rug contains the jar .
+the jar is left of the rug . the rug is right of the jar .
+the jar is in front of the rug . the rug is behind the jar .
+the jar is on top of the rug . the rug is under the jar .
+the jar is beside the rug . the rug is beside the jar .
+the jar is above the ladder . the ladder is below the jar .
+the jar is inside the ladder . the ladder contains the jar .
+the jar is left of the ladder . the ladder is right of the jar .
+the jar is in front of the ladder . the ladder is behind the jar .
+the jar is on top of the ladder . the ladder is under the jar .
+the jar is beside the ladder . the ladder is beside the jar .
+the jar is above the kettle . the kettle is below the jar .
+the jar is inside the kettle . the kettle contains the jar .
+the jar is left of the kettle . the kettle is right of the jar .
+the jar is in front of the kettle . the kettle is behind the jar .
+the jar is on top of the kettle . the kettle is under the jar .
+the jar is beside the kettle . the kettle is beside the jar .
+the chair is above the table . the table is below the chair .
+the chair is inside the table . the table contains the chair .
+the chair is left of the table . the table is right of the chair .
+the chair is in front of the table . the table is behind the chair .
+the chair is on top of the table . the table is under the chair .
+the chair is beside the table . the table is beside the chair .
+the chair is above the bike . the bike is below the chair .
+the chair is inside the bike . the bike contains the chair .
+the chair is left of the bike . the bike is right of the chair .
+the chair is in front of the bike . the bike is behind the chair .
+the chair is on top of the bike . the bike is under the chair .
+the chair is beside the bike . the bike is beside the chair .
+the chair is above the clock . the clock is below the chair .
+the chair is inside the clock . the clock contains the chair .
+the chair is left of the clock . the clock is right of the chair .
+the chair is in front of the clock . the clock is behind the chair .
+the chair is on top of the clock . the clock is under the chair .
+the chair is beside the clock . the clock is beside the chair .
+the chair is above the mirror . the mirror is below the chair .
+the chair is inside the mirror . the mirror contains the chair .
+the chair is left of the mirror . the mirror is right of the chair .
+the chair is in front of the mirror . the mirror is behind the chair .
+the chair is on top of the mirror . the mirror is under the chair .
+the chair is beside the mirror . the mirror is beside the chair .
+the chair is above the stool . the stool is below the chair .
+the chair is inside the stool . the stool contains the chair .
+the chair is left of the stool . the stool is right of the chair .
+the chair is in front of the stool . the stool is behind the chair .
+the chair is on top of the stool . the stool is under the chair .
+the chair is beside the stool . the stool is beside the chair .
+the chair is above the basket . the basket is below the chair .
+the chair is inside the basket . the basket contains the chair .
+the chair is left of the basket . the basket is right of the chair .
+the chair is in front of the basket . the basket is behind the chair .
+the chair is on top of the basket . the basket is under the chair .
+the chair is beside the basket . the basket is beside the chair .
+the chair is above the lantern . the lantern is below the chair .
+the chair is inside the lantern . the lantern contains the chair .
+the chair is left of the lantern . the lantern is right of the chair .
+the chair is in front of the lantern . the lantern is behind the chair .
+the chair is on top of the lantern . the lantern is under the chair .
+the chair is beside the lantern . the lantern is beside the chair .
+the chair is above the bench . the bench is below the chair .
+the chair is inside the bench . the bench contains the chair .
+the chair is left of the bench . the bench is right of the chair .
+the chair is in front of the bench . the bench is behind the chair .
+the chair is on top of the bench . the bench is under the chair .
+the chair is beside the bench . the bench is beside the chair .
+the chair is above the vase . the vase is below the chair .
+the chair is inside the vase . the vase contains the chair .
+the chair is left of the vase . the vase is right of the chair .
+the chair is in front of the vase . the vase is behind the chair .
+the chair is on top of the vase . the vase is under the chair .
+the chair is beside the vase . the vase is beside the chair .
+the chair is above the rug . the rug is below the chair .
+the chair is inside the rug . the rug contains the chair .
+the chair is left of the rug . the rug is right of the chair .
+the chair is in front of the rug . the rug is behind the chair .
+the chair is on top of the rug . the rug is under the chair .
+the chair is beside the rug . the rug is beside the chair .
+the chair is above the ladder . the ladder is below the chair .
+the chair is inside the ladder . the ladder contains the chair .
+the chair is left of the ladder . the ladder is right of the chair .
+the chair is in front of the ladder . the ladder is behind the chair .
+the chair is on top of the ladder . the ladder is under the chair .
+the chair is beside the ladder . the ladder is beside the chair .
+the chair is above the kettle . the kettle is below the chair .
+the chair is inside the kettle . the kettle contains the chair .
+the chair is left of the kettle . the kettle is right of the chair .
+the chair is in front of the kettle . the kettle is behind the chair .
+the chair is on top of the kettle . the kettle is under the chair .
+the chair is beside the kettle . the kettle is beside the chair .
+the table is above the bike . the bike is below the table .
+the table is inside the bike . the bike contains the table .
+the table is left of the bike . the bike is right of the table .
+the table is in front of the bike . the bike is behind the table .
+the table is on top of the bike . the bike is under the table .
+the table is beside the bike . the bike is beside the table .
+the table is above the clock . the clock is below the table .
+the table is inside the clock . the clock contains the table .
+the table is left of the clock . the clock is right of the table .
+the table is in front of the clock . the clock is behind the table .
+the table is on top of the clock . the clock is under the table .
+the table is beside the clock . the clock is beside the table .
+the table is above the mirror . the mirror is below the table .
+the table is inside the mirror . the mirror contains the table .
+the table is left of the mirror . the mirror is right of the table .
+the table is in front of the mirror . the mirror is behind the table .
+the table is on top of the mirror . the mirror is under the table .
+the table is beside the mirror . the mirror is beside the table .
+the table is above the stool . the stool is below the table .
+the table is inside the stool . the stool contains the table .
+the table is left of the stool . the stool is right of the table .
+the table is in front of the stool . the stool is behind the table .
+the table is on top of the stool . the stool is under the table .
+the table is beside the stool . the stool is beside the table .
+the table is above the basket . the basket is below the table .
+the table is inside the basket . the basket contains the table .
+the table is left of the basket . the basket is right of the table .
+the table is in front of the basket . the basket is behind the table .
+the table is on top of the basket . the basket is under the table .
+the table is beside the basket . the basket is beside the table .
+the table is above the lantern . the lantern is below the table .
+the table is inside the lantern . the lantern contains the table .
+the table is left of the lantern . the lantern is right of the table .
+the table is in front of the lantern . the lantern is behind the table .
+the table is on top of the lantern . the lantern is under the table .
+the table is beside the lantern . the lantern is beside the table .
+the table is above the bench . the bench is below the table .
+the table is inside the bench . the bench contains the table .
+the table is left of the bench . the bench is right of the table .
+the table is in front of the bench . the bench is behind the table .
+the table is on top of the bench . the bench is under the table .
+the table is beside the bench . the bench is beside the table .
+the table is above the vase . the vase is below the table .
+the table is inside the vase . the vase contains the table .
+the table is left of the vase . the vase is right of the table .
+the table is in front of the vase . the vase is behind the table .
+the table is on top of the vase . the vase is under the table .
+the table is beside the vase . the vase is beside the table .
+the table is above the rug . the rug is below the table .
+the table is inside the rug . the rug contains the table .
+the table is left of the rug . the rug is right of the table .
+the table is in front of the rug . the rug is behind the table .
+the table is on top of the rug . the rug is under the table .
+the table is beside the rug . the rug is beside the table .
+the table is above the ladder . the ladder is below the table .
+the table is inside the ladder . the ladder contains the table .
+the table is left of the ladder . the ladder is right of the table .
+the table is in front of the ladder . the ladder is behind the table .
+the table is on top of the ladder . the ladder is under the table .
+the table is beside the ladder . the ladder is beside the table .
+the table is above the kettle . the kettle is below the table .
+the table is inside the kettle . the kettle contains the table .
+the table is left of the kettle . the kettle is right of the table .
+the table is in front of the kettle . the kettle is behind the table .
+the table is on top of the kettle . the kettle is under the table .
+the table is beside the kettle . the kettle is beside the table .
+the bike is above the clock . the clock is below the bike .
+the bike is inside the clock . the clock contains the bike .
+the bike is left of the clock . the clock is right of the bike .
+the bike is in front of the clock . the clock is behind the bike .
+the bike is on top of the clock . the clock is under the bike .
+the bike is beside the clock . the clock is beside the bike .
+the bike is above the mirror . the mirror is below the bike .
+the bike is inside the mirror . the mirror contains the bike .
+the bike is left of the mirror . the mirror is right of the bike .
+the bike is in front of the mirror . the mirror is behind the bike .
+the bike is on top of the mirror . the mirror is under the bike .
+the bike is beside the mirror . the mirror is beside the bike .
+the bike is above the stool . the stool is below the bike .
+the bike is inside the stool . the stool contains the bike .
+the bike is left of the stool . the stool is right of the bike .
+the bike is in front of the stool . the stool is behind the bike .
+the bike is on top of the stool . the stool is under the bike .
+the bike is beside the stool . the stool is beside the bike .
+the bike is above the basket . the basket is below the bike .
+the bike is inside the basket . the basket contains the bike .
+the bike is left of the basket . the basket is right of the bike .
+the bike is in front of the basket . the basket is behind the bike .
+the bike is on top of the basket . the basket is under the bike .
+the bike is beside the basket . the basket is beside the bike .
+the bike is above the lantern . the lantern is below the bike .
+the bike is inside the lantern . the lantern contains the bike .
+the bike is left of the lantern . the lantern is right of the bike .
+the bike is in front of the lantern . the lantern is behind the bike .
+the bike is on top of the lantern . the lantern is under the bike .
+the bike is beside the lantern . the lantern is beside the bike .
+the bike is above the bench . the bench is below the bike .
+the bike is inside the bench . the bench contains the bike .
+the bike is left of the bench . the bench is right of the bike .
+the bike is in front of the bench . the bench is behind the bike .
+the bike is on top of the bench . the bench is under the bike .
+the bike is beside the bench . the bench is beside the bike .
+the bike is above the vase . the vase is below the bike .
+the bike is inside the vase . the vase contains the bike .
+the bike is left of the vase . the vase is right of the bike .
+the bike is in front of the vase . the vase is behind the bike .
+the bike is on top of the vase . the vase is under the bike .
+the bike is beside the vase . the vase is beside the bike .
+the bike is above the rug . the rug is below the bike .
+the bike is inside the rug . the rug contains the bike .
+the bike is left of the rug . the rug is right of the bike .
+the bike is in front of the rug . the rug is behind the bike .
+the bike is on top of the rug . the rug is under the bike .
+the bike is beside the rug . the rug is beside the bike .
+the bike is above the ladder . the ladder is below the bike .
+the bike is inside the ladder . the ladder contains the bike .
+the bike is left of the ladder . the ladder is right of the bike .
+the bike is in front of the ladder . the ladder is behind the bike .
+the bike is on top of the ladder . the ladder is under the bike .
+the bike is beside the ladder . the ladder is beside the bike .
+the bike is above the kettle . the kettle is below the bike .
+the bike is inside the kettle . the kettle contains the bike .
+the bike is left of the kettle . the kettle is right of the bike .
+the bike is in front of the kettle . the kettle is behind the bike .
+the bike is on top of the kettle . the kettle is under the bike .
+the bike is beside the kettle . the kettle is beside the bike .
+the clock is above the mirror . the mirror is below the clock .
+the clock is inside the mirror . the mirror contains the clock .
+the clock is left of the mirror . the mirror is right of the clock .
+the clock is in front of the mirror . the mirror is behind the clock .
+the clock is on top of the mirror . the mirror is under the clock .
+the clock is beside the mirror . the mirror is beside the clock .
+the clock is above the stool . the stool is below the clock .
+the clock is inside the stool . the stool contains the clock .
+the clock is left of the stool . the stool is right of the clock .
+the clock is in front of the stool . the stool is behind the clock .
+the clock is on top of the stool . the stool is under the clock .
+the clock is beside the stool . the stool is beside the clock .
+the clock is above the basket . the basket is below the clock .
+the clock is inside the basket . the basket contains the clock .
+the clock is left of the basket . the basket is right of the clock .
+the clock is in front of the basket . the basket is behind the clock .
+the clock is on top of the basket . the basket is under the clock .
+the clock is beside the basket . the basket is beside the clock .
+the clock is above the lantern . the lantern is below the clock .
+the clock is inside the lantern . the lantern contains the clock .
+the clock is left of the lantern . the lantern is right of the clock .
+the clock is in front of the lantern . the lantern is behind the clock .
+the clock is on top of the lantern . the lantern is under the clock .
+the clock is beside the lantern . the lantern is beside the clock .
+the clock is above the bench . the bench is below the clock .
+the clock is inside the bench . the bench contains the clock .
+the clock is left of the bench . the bench is right of the clock .
+the clock is in front of the bench . the bench is behind the clock .
+the clock is on top of the bench . the bench is under the clock .
+the clock is beside the bench . the bench is beside the clock .
+the clock is above the vase . the vase is below the clock .
+the clock is inside the vase . the vase contains the clock .
+the clock is left of the vase . the vase is right of the clock .
+the clock is in front of the vase . the vase is behind the clock .
+the clock is on top of the vase . the vase is under the clock .
+the clock is beside the vase . the vase is beside the clock .
+the clock is above the rug . the rug is below the clock .
+the clock is inside the rug . the rug contains the clock .
+the clock is left of the rug . the rug is right of the clock .
+the clock is in front of the rug . the rug is behind the clock .
+the clock is on top of the rug . the rug is under the clock .
+the clock is beside the rug . the rug is beside the clock .
+the clock is above the ladder . the ladder is below the clock .
+the clock is inside the ladder . the ladder contains the clock .
+the clock is left of the ladder . the ladder is right of the clock .
+the clock is in front of the ladder . the ladder is behind the clock .
+the clock is on top of the ladder . the ladder is under the clock .
+the clock is beside the ladder . the ladder is beside the clock .
+the clock is above the kettle . the kettle is below the clock .
+the clock is inside the kettle . the kettle contains the clock .
+the clock is left of the kettle . the kettle is right of the clock .
+the clock is in front of the kettle . the kettle is behind the clock .
+the clock is on top of the kettle . the kettle is under the clock .
+the clock is beside the kettle . the kettle is beside the clock .
+the mirror is above the stool . the stool is below the mirror .
+the mirror is inside the stool . the stool contains the mirror .
+the mirror is left of the stool . the stool is right of the mirror .
+the mirror is in front of the stool . the stool is behind the mirror .
+the mirror is on top of the stool . the stool is under the mirror .
+the mirror is beside the stool . the stool is beside the mirror .
+the mirror is above the basket . the basket is below the mirror .
+the mirror is inside the basket . the basket contains the mirror .
+the mirror is left of the basket . the basket is right of the mirror .
+the mirror is in front of the basket . the basket is behind the mirror .
+the mirror is on top of the basket . the basket is under the mirror .
+the mirror is beside the basket . the basket is beside the mirror .
+the mirror is above the lantern . the lantern is below the mirror .
+the mirror is inside the lantern . the lantern contains the mirror .
+the mirror is left of the lantern . the lantern is right of the mirror .
+the mirror is in front of the lantern . the lantern is behind the mirror .
+the mirror is on top of the lantern . the lantern is under the mirror .
+the mirror is beside the lantern . the lantern is beside the mirror .
+the mirror is above the bench . the bench is below the mirror .
+the mirror is inside the bench . the bench contains the mirror .
+the mirror is left of the bench . the bench is right of the mirror .
+the mirror is in front of the bench . the bench is behind the mirror .
+the mirror is on top of the bench . the bench is under the mirror .
+the mirror is beside the bench . the bench is beside the mirror .
+the mirror is above the vase . the vase is below the mirror .
+the mirror is inside the vase . the vase contains the mirror .
+the mirror is left of the vase . the vase is right of the mirror .
+the mirror is in front of the vase . the vase is behind the mirror .
+the mirror is on top of the vase . the vase is under the mirror .
+the mirror is beside the vase . the vase is beside the mirror .
+the mirror is above the rug . the rug is below the mirror .
+the mirror is inside the rug . the rug contains the mirror .
+the mirror is left of the rug . the rug is right of the mirror .
+the mirror is in front of the rug . the rug is behind the mirror .
+the mirror is on top of the rug . the rug is under the mirror .
+the mirror is beside the rug . the rug is beside the mirror .
+the mirror is above the ladder . the ladder is below the mirror .
+the mirror is inside the ladder . the ladder contains the mirror .
+the mirror is left of the ladder . the ladder is right of the mirror .
+the mirror is in front of the ladder . the ladder is behind the mirror .
+the mirror is on top of the ladder . the ladder is under the mirror .
+the mirror is beside the ladder . the ladder is beside the mirror .
+the mirror is above the kettle . the kettle is below the mirror .
+the mirror is inside the kettle . the kettle contains the mirror .
+the mirror is left of the kettle . the kettle is right of the mirror .
+the mirror is in front of the kettle . the kettle is behind the mirror .
+the mirror is on top of the kettle . the kettle is under the mirror .
+the mirror is beside the kettle . the kettle is beside the mirror .
+the stool is above the basket . the basket is below the stool .
+the stool is inside the basket . the basket contains the stool .
+the stool is left of the basket . the basket is right of the stool .
+the stool is in front of the basket . the basket is behind the stool .
+the stool is on top of the basket . the basket is under the stool .
+the stool is beside the basket . the basket is beside the stool .
+the stool is above the lantern . the lantern is below the stool .
+the stool is inside the lantern . the lantern contains the stool .
+the stool is left of the lantern . the lantern is right of the stool .
+the stool is in front of the lantern . the lantern is behind the stool .
+the stool is on top of the lantern . the lantern is under the stool .
+the stool is beside the lantern . the lantern is beside the stool .
+the stool is above the bench . the bench is below the stool .
+the stool is inside the bench . the bench contains the stool .
+the stool is left of the bench . the bench is right of the stool .
+the stool is in front of the bench . the bench is behind the stool .
+the stool is on top of the bench . the bench is under the stool .
+the stool is beside the bench . the bench is beside the stool .
+the stool is above the vase . the vase is below the stool .
+the stool is inside the vase . the vase contains the stool .
+the stool is left of the vase . the vase is right of the stool .
+the stool is in front of the vase . the vase is behind the stool .
+the stool is on top of the vase . the vase is under the stool .
+the stool is beside the vase . the vase is beside the stool .
+the stool is above the rug . the rug is below the stool .
+the stool is inside the rug . the rug contains the stool .
+the stool is left of the rug . the rug is right of the stool .
+the stool is in front of the rug . the rug is behind the stool .
+the stool is on top of the rug . the rug is under the stool .
+the stool is beside the rug . the rug is beside the stool .
+the stool is above the ladder . the ladder is below the stool .
+the stool is inside the ladder . the ladder contains the stool .
+the stool is left of the ladder . the ladder is right of the stool .
+the stool is in front of the ladder . the ladder is behind the stool .
+the stool is on top of the ladder . the ladder is under the stool .
+the stool is beside the ladder . the ladder is beside the stool .
+the stool is above the kettle . the kettle is below the stool .
+the stool is inside the kettle . the kettle contains the stool .
+the stool is left of the kettle . the kettle is right of the stool .
+the stool is in front of the kettle . the kettle is behind the stool .
+the stool is on top of the kettle . the kettle is under the stool .
+the stool is beside the kettle . the kettle is beside the stool .
+the basket is above the lantern . the lantern is below the basket .
+the basket is inside the lantern . the lantern contains the basket .
+the basket is left of the lantern . the lantern is right of the basket .
+the basket is in front of the lantern . the lantern is behind the basket .
+the basket is on top of the lantern . the lantern is under the basket .
+the basket is beside the lantern . the lantern is beside the basket .
+the basket is above the bench . the bench is below the basket .
+the basket is inside the bench . the bench contains the basket .
+the basket is left of the bench . the bench is right of the basket .
+the basket is in front of the bench . the bench is behind the basket .
+the basket is on top of the bench . the bench is under the basket .
+the basket is beside the bench . the bench is beside the basket .
+the basket is above the vase . the vase is below the basket .
+the basket is inside the vase . the vase contains the basket .
+the basket is left of the vase . the vase is right of the basket .
+the basket is in front of the vase . the vase is behind the basket .
+the basket is on top of the vase . the vase is under the basket .
+the basket is beside the vase . the vase is beside the basket .
+the basket is above the rug . the rug is below the basket .
+the basket is inside the rug . the rug contains the basket .
+the basket is left of the rug . the rug is right of the basket .
+the basket is in front of the rug . the rug is behind the basket .
+the basket is on top of the rug . the rug is under the basket .
+the basket is beside the rug . the rug is beside the basket .
+the basket is above the ladder . the ladder is below the basket .
+the basket is inside the ladder . the ladder contains the basket .
+the basket is left of the ladder . the ladder is right of the basket .
+the basket is in front of the ladder . the ladder is behind the basket .
+the basket is on top of the ladder . the ladder is under the basket .
+the basket is beside the ladder . the ladder is beside the basket .
+the basket is above the kettle . the kettle is below the basket .
+the basket is inside the kettle . the kettle contains the basket .
+the basket is left of the kettle . the kettle is right of the basket .
+the basket is in front of the kettle . the kettle is behind the basket .
+the basket is on top of the kettle . the kettle is under the basket .
+the basket is beside the kettle . the kettle is beside the basket .
+the lantern is above the bench . the bench is below the lantern .
+the lantern is inside the bench . the bench contains the lantern .
+the lantern is left of the bench . the bench is right of the lantern .
+the lantern is in front of the bench . the bench is behind the lantern .
+the lantern is on top of the bench . the bench is under the lantern .
+the lantern is beside the bench . the bench is beside the lantern .
+the lantern is above the vase . the vase is below the lantern .
+the lantern is inside the vase . the vase contains the lantern .
+the lantern is left of the vase . the vase is right of the lantern .
+the lantern is in front of the vase . the vase is behind the lantern .
+the lantern is on top of the vase . the vase is under the lantern .
+the lantern is beside the vase . the vase is beside the lantern .
+the lantern is above the rug . the rug is below the lantern .
+the lantern is inside the rug . the rug contains the lantern .
+the lantern is left of the rug . the rug is right of the lantern .
+the lantern is in front of the rug . the rug is behind the lantern .
+the lantern is on top of the rug . the rug is under the lantern .
+the lantern is beside the rug . the rug is beside the lantern .
+the lantern is above the ladder . the ladder is below the lantern .
+the lantern is inside the ladder . the ladder contains the lantern .
+the lantern is left of the ladder . the ladder is right of the lantern .
+the lantern is in front of the ladder . the ladder is behind the lantern .
+the lantern is on top of the ladder . the ladder is under the lantern .
+the lantern is beside the ladder . the ladder is beside the lantern .
+the lantern is above the kettle . the kettle is below the lantern .
+the lantern is inside the kettle . the kettle contains the lantern .
+the lantern is left of the kettle . the kettle is right of the lantern .
+the lantern is in front of the kettle . the kettle is behind the lantern .
+the lantern is on top of the kettle . the kettle is under the lantern .
+the lantern is beside the kettle . the kettle is beside the lantern .
+the bench is above the vase . the vase is below the bench .
+the bench is inside the vase . the vase contains the bench .
+the bench is left of the vase . the vase is right of the bench .
+the bench is in front of the vase . the vase is behind the bench .
+the bench is on top of the vase . the vase is under the bench .
+the bench is beside the vase . the vase is beside the bench .
+the bench is above the rug . the rug is below the bench .
+the bench is inside the rug . the rug contains the bench .
+the bench is left of the rug . the rug is right of the bench .
+the bench is in front of the rug . the rug is behind the bench .
+the bench is on top of the rug . the rug is under the bench .
+the bench is beside the rug . the rug is beside the bench .
+the bench is above the ladder . the ladder is below the bench .
+the bench is inside the ladder . the ladder contains the bench .
+the bench is left of the ladder . the ladder is right of the bench .
+the bench is in front of the ladder . the ladder is behind the bench .
+the bench is on top of the ladder . the ladder is under the bench .
+the bench is beside the ladder . the ladder is beside the bench .
+the bench is above the kettle . the kettle is below the bench .
+the bench is inside the kettle . the kettle contains the bench .
+the bench is left of the kettle . the kettle is right of the bench .
+the bench is in front of the kettle . the kettle is behind the bench .
+the bench is on top of the kettle . the kettle is under the bench .
+the bench is beside the kettle . the kettle is beside the bench .
+the vase is above the rug . the rug is below the vase .
+the vase is inside the rug . the rug contains the vase .
+the vase is left of the rug . the rug is right of the vase .
+the vase is in front of the rug . the rug is behind the vase .
+the vase is on top of the rug . the rug is under the vase .
+the vase is beside the rug . the rug is beside the vase .
+the vase is above the ladder . the ladder is below the vase .
+the vase is inside the ladder . the ladder contains the vase .
+the vase is left of the ladder . the ladder is right of the vase .
+the vase is in front of the ladder . the ladder is behind the vase .
+the vase is on top of the ladder . the ladder is under the vase .
+the vase is beside the ladder . the ladder is beside the vase .
+the vase is above the kettle . the kettle is below the vase .
+the vase is inside the kettle . the kettle contains the vase .
+the vase is left of the kettle . the kettle is right of the vase .
+the vase is in front of the kettle . the kettle is behind the vase .
+the vase is on top of the kettle . the kettle is under the vase .
+the vase is beside the kettle . the kettle is beside the vase .
+the rug is above the ladder . the ladder is below the rug .
+the rug is inside the ladder . the ladder contains the rug .
+the rug is left of the ladder . the ladder is right of the rug .
+the rug is in front of the ladder . the ladder is behind the rug .
+the rug is on top of the ladder . the ladder is under the rug .
+the rug is beside the ladder . the ladder is beside the rug .
+the rug is above the kettle . the kettle is below the rug .
+the rug is inside the kettle . the kettle contains the rug .
+the rug is left of the kettle . the kettle is right of the rug .
+the rug is in front of the kettle . the kettle is behind the rug .
+the rug is on top of the kettle . the kettle is under the rug .
+the rug is beside the kettle . the kettle is beside the rug .
+the ladder is above the kettle . the kettle is below the ladder .
+the ladder is inside the kettle . the kettle contains the ladder .
+the ladder is left of the kettle . the kettle is right of the ladder .
+the ladder is in front of the kettle . the kettle is behind the ladder .
+the ladder is on top of the kettle . the kettle is under the ladder .
+the ladder is beside the kettle . the kettle is beside the ladder .
+the cabin has the cup near the door .
+the cabin keeps the cup beside the window .
+the cabin has the shelf near the door .
+the cabin keeps the shelf beside the window .
+the cabin has the jar near the door .
+the cabin keeps the jar beside the window .
+the cabin has the chair near the door .
+the cabin keeps the chair beside the window .
+the cabin has the table near the door .
+the cabin keeps the table beside the window .
+the cabin has the bike near the door .
+the cabin keeps the bike beside the window .
+the cabin has the clock near the door .
+the cabin keeps the clock beside the window .
+the cabin has the mirror near the door .
+the cabin keeps the mirror beside the window .
+the cabin has the stool near the door .
+the cabin keeps the stool beside the window .
+the cabin has the basket near the door .
+the cabin keeps the basket beside the window .
+the cabin has the lantern near the door .
+the cabin keeps the lantern beside the window .
+the cabin has the bench near the door .
+the cabin keeps the bench beside the window .
+the cabin has the vase near the door .
+the cabin keeps the vase beside the window .
+the cabin has the rug near the door .
+the cabin keeps the rug beside the window .
+the cabin has the ladder near the door .
+the cabin keeps the ladder beside the window .
+the cabin has the kettle near the door .
+the cabin keeps the kettle beside the window .
+the workshop has the cup near the door .
+the workshop keeps the cup beside the window .
+the workshop has the shelf near the door .
+the workshop keeps the shelf beside the window .
+the workshop has the jar near the door .
+the workshop keeps the jar beside the window .
+the workshop has the chair near the door .
+the workshop keeps the chair beside the window .
+the workshop has the table near the door .
+the workshop keeps the table beside the window .
+the workshop has the bike near the door .
+the workshop keeps the bike beside the window .
+the workshop has the clock near the door .
+the workshop keeps the clock beside the window .
+the workshop has the mirror near the door .
+the workshop keeps the mirror beside the window .
+the workshop has the stool near the door .
+the workshop keeps the stool beside the window .
+the workshop has the basket near the door .
+the workshop keeps the basket beside the window .
+the workshop has the lantern near the door .
+the workshop keeps the lantern beside the window .
+the workshop has the bench near the door .
+the workshop keeps the bench beside the window .
+the workshop has the vase near the door .
+the workshop keeps the vase beside the window .
+the workshop has the rug near the door .
+the workshop keeps the rug beside the window .
+the workshop has the ladder near the door .
+the workshop keeps the ladder beside the window .
+the workshop has the kettle near the door .
+the workshop keeps the kettle beside the window .
+the porch has the cup near the door .
+the porch keeps the cup beside the window .
+the porch has the shelf near the door .
+the porch keeps the shelf beside the window .
+the porch has the jar near the door .
+the porch keeps the jar beside the window .
+the porch has the chair near the door .
+the porch keeps the chair beside the window .
+the porch has the table near the door .
+the porch keeps the table beside the window .
+the porch has the bike near the door .
+the porch keeps the bike beside the window .
+the porch has the clock near the door .
+the porch keeps the clock beside the window .
+the porch has the mirror near the door .
+the porch keeps the mirror beside the window .
+the porch has the stool near the door .
+the porch keeps the stool beside the window .
+the porch has the basket near the door .
+the porch keeps the basket beside the window .
+the porch has the lantern near the door .
+the porch keeps the lantern beside the window .
+the porch has the bench near the door .
+the porch keeps the bench beside the window .
+the porch has the vase near the door .
+the porch keeps the vase beside the window .
+the porch has the rug near the door .
+the porch keeps the rug beside the window .
+the porch has the ladder near the door .
+the porch keeps the ladder beside the window .
+the porch has the kettle near the door .
+the porch keeps the kettle beside the window .
+the attic has the cup near the door .
+the attic keeps the cup beside the window .
+the attic has the shelf near the door .
+the attic keeps the shelf beside the window .
+the attic has the jar near the door .
+the attic keeps the jar beside the window .
+the attic has the chair near the door .
+the attic keeps the chair beside the window .
+the attic has the table near the door .
+the attic keeps the table beside the window .
+the attic has the bike near the door .
+the attic keeps the bike beside the window .
+the attic has the clock near the door .
+the attic keeps the clock beside the window .
+the attic has the mirror near the door .
+the attic keeps the mirror beside the window .
+the attic has the stool near the door .
+the attic keeps the stool beside the window .
+the attic has the basket near the door .
+the attic keeps the basket beside the window .
+the attic has the lantern near the door .
+the attic keeps the lantern beside the window .
+the attic has the bench near the door .
+the attic keeps the bench beside the window .
+the attic has the vase near the door .
+the attic keeps the vase beside the window .
+the attic has the rug near the door .
+the attic keeps the rug beside the window .
+the attic has the ladder near the door .
+the attic keeps the ladder beside the window .
+the attic has the kettle near the door .
+the attic keeps the kettle beside the window .
+the pantry has the cup near the door .
+the pantry keeps the cup beside the window .
+the pantry has the shelf near the door .
+the pantry keeps the shelf beside the window .
+the pantry has the jar near the door .
+the pantry keeps the jar beside the window .
+the pantry has the chair near the door .
+the pantry keeps the chair beside the window .
+the pantry has the table near the door .
+the pantry keeps the table beside the window .
+the pantry has the bike near the door .
+the pantry keeps the bike beside the window .
+the pantry has the clock near the door .
+the pantry keeps the clock beside the window .
+the pantry has the mirror near the door .
+the pantry keeps the mirror beside the window .
+the pantry has the stool near the door .
+the pantry keeps the stool beside the window .
+the pantry has the basket near the door .
+the pantry keeps the basket beside the window .
+the pantry has the lantern near the door .
+the pantry keeps the lantern beside the window .
+the pantry has the bench near the door .
+the pantry keeps the bench beside the window .
+the pantry has the vase near the door .
+the pantry keeps the vase beside the window .
+the pantry has the rug near the door .
+the pantry keeps the rug beside the window .
+the pantry has the ladder near the door .
+the pantry keeps the ladder beside the window .
+the pantry has the kettle near the door .
+the pantry keeps the kettle beside the window .
+the studio has the cup near the door .
+the studio keeps the cup beside the window .
+the studio has the shelf near the door .
+the studio keeps the shelf beside the window .
+the studio has the jar near the door .
+the studio keeps the jar beside the window .
+the studio has the chair near the door .
+the studio keeps the chair beside the window .
+the studio has the table near the door .
+the studio keeps the table beside the window .
+the studio has the bike near the door .
+the studio keeps the bike beside the window .
+the studio has the clock near the door .
+the studio keeps the clock beside the window .
+the studio has the mirror near the door .
+the studio keeps the mirror beside the window .
+the studio has the stool near the door .
+the studio keeps the stool beside the window .
+the studio has the basket near the door .
+the studio keeps the basket beside the window .
+the studio has the lantern near the door .
+the studio keeps the lantern beside the window .
+the studio has the bench near the door .
+the studio keeps the bench beside the window .
+the studio has the vase near the door .
+the studio keeps the vase beside the window .
+the studio has the rug near the door .
+the studio keeps the rug beside the window .
+the studio has the ladder near the door .
+the studio keeps the ladder beside the window .
+the studio has the kettle near the door .
+the studio keeps the kettle beside the window .
