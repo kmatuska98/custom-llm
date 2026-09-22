@@ -45,8 +45,41 @@ TRAINING_STEPS = 3000      # 10 for setup; 3000 for the main experiment
 LEARNING_RATE = 0.001
 # %% [markdown]
 # ### My prediction
-# Replace this text with your choices, reasons, and expected changes in generated
-# text, validation loss, and neighbors of a word you choose to inspect.
+#
+# **Corpus: `classroom` (unmodified, starter run).** Running the teacher-authored corpus
+# first, before any extension, gives a baseline to compare the corpus-extension experiment
+# against later. It's synthetic, templated sentences built from 8 word-association domains
+# (customer/service, product/quality, loan/interest, fruit/juice, car/traffic, software/code,
+# doctor/patient, teacher/lesson), each expressed through 8 repeated sentence frames.
+#
+# **Training steps: 3,000.** One step = one gradient update on a batch of 32 passages, not a
+# full pass over the corpus. 10 steps only confirms the pipeline runs; 3,000 is the assignment's
+# suggested starting budget and should be enough for this tiny 2-block/4-head/64-dim network to
+# fit a small, highly repetitive corpus, while still finishing quickly on Colab's CPU runtime.
+#
+# **Learning rate: 0.001.** AdamW's initial update size, with warmup (ramping up gradually so
+# the first few noisy gradients don't take an oversized step) and cosine decay (shrinking the
+# step size later so training settles instead of oscillating). Much larger (e.g. 0.1) risks
+# unstable/diverging loss; much smaller (e.g. 0.00001) would barely move the weights in 3,000
+# steps and waste the budget.
+#
+# **What I expect to observe:**
+# - Training loss should drop sharply within the first few hundred steps — the corpus is
+#   small and highly formulaic (8 frames x limited nouns), so it's easy to compress.
+# - Validation loss should also drop, but this isn't evidence of generalization: the 90/10
+#   split is by passage, not by template, so validation passages reuse the same frames and
+#   domains as training.
+# - On the 48-case eval suite: the 16 `starter_patterns` cases (reserved prefixes from the
+#   classroom's own domain associations) should improve the most after training, since they
+#   test exactly the noun-context pairings the corpus repeats. The 8 `starter_transfer` cases
+#   (new phrasings of starter vocabulary) should improve less, since they require applying the
+#   learned association to an unseen sentence shape. The 24 `extend_corpus` cases (grammar,
+#   opposites, negation, reference, sequence, spatial relations, everyday knowledge,
+#   categories/analogies) should barely move, if at all — this corpus contains none of that
+#   vocabulary or those patterns, and more steps on the wrong data can't supply missing words.
+# - Inspecting one word's embedding before/after training should show a small but nonzero
+#   shift (the word's context predicts specific neighbors), while a word never in the corpus
+#   would stay at its random initialization.
 #
 # ## 2. Load the tools and network
 # Colab generally includes PyTorch. Locally, install requirements.txt first.
