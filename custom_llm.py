@@ -161,6 +161,25 @@ torch.set_num_threads(min(4, torch.get_num_threads()))
 torch.manual_seed(SEED)
 print("PyTorch:", torch.__version__, "| device:", DEVICE)
 # %% [markdown]
+# ### Optional: fetch my corpus-extension files from GitHub
+# Run this cell ONLY for the corpus-extension experiment (skip it for the starter
+# run). Manually uploaded files in Colab live on the ephemeral VM disk and are
+# lost if the runtime disconnects/restarts; fetching them from my own repo here
+# means Run All can always recreate them, with no re-upload needed after a
+# disconnect. Source: corpus_extension/ in this repo, not corpus/, so the
+# starter-corpus experiment is never accidentally affected by this cell existing.
+# %%
+FETCH_EXTENSION_FILES = False  # Set True only when running the corpus-extension experiment
+EXTENSION_REPO = "kmatuska98/custom-llm"
+EXTENSION_FILES = ["negation.txt", "spatial_relations.txt"]
+if FETCH_EXTENSION_FILES:
+    for name in EXTENSION_FILES:
+        dest = Path(CORPUS_FOLDER) / name
+        url = f"https://raw.githubusercontent.com/{EXTENSION_REPO}/main/corpus_extension/{name}"
+        with urllib.request.urlopen(url, timeout=30) as response:
+            dest.write_bytes(response.read())
+        print(f"Fetched {name}: {dest.stat().st_size} bytes -> {dest}")
+# %% [markdown]
 # ## 3. Meet the corpus
 # A **corpus** is a collection of examples. The default generator creates sentences
 # about business, food, transport, technology, health, and education. Related nouns
