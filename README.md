@@ -9,8 +9,9 @@ Notebook: [custom_llm.ipynb](custom_llm.ipynb) ·
 [Open in Colab](https://colab.research.google.com/github/kmatuska98/custom-llm/blob/main/custom_llm.ipynb) ·
 [Assignment](ASSIGNMENT.md) · [3D embedding viewer](embedding-viewer.html)
 
-> **Status:** both experiments and the chat interface are complete with evidence.
-> Remaining: fill in "What I learned" in my own words below before submitting.
+> **Status:** complete — both experiments, the chat interface, and "What I
+> learned" are all filled in with actual evidence. Ready for a final review
+> pass before submitting.
 
 ## My choices and prediction
 
@@ -299,8 +300,84 @@ weights.
 
 ## What I learned
 
-*(To fill in with my own explanation, using the actual token/embedding/gradient/
-loss evidence above, once both experiments are complete.)*
+**1. What is my corpus, what can it teach, and what's missing? Why hold data out?**
+My corpus is a set of sentences I train the model on. It can teach vocabulary,
+grammar, and sentence structure/ordering — but only patterns that actually
+appear in it (the extension experiment showed it can't answer questions about
+words or relationships it never saw at all). Holding out validation data acts
+like a control: it checks whether the model can perform on sentences it wasn't
+directly trained on, confirming it isn't just memorizing rather than learning
+the pattern. In our case, since validation sentences reuse the same 8 templates
+as training (just different word swaps), this control mainly rules out
+exact-sentence memorization, not deeper generalization to genuinely new
+sentence structures.
+
+**2. Trace one word through token, ID, and embedding.**
+A token is a chunk of text the model uses — a word or a punctuation mark. A
+token ID is an arbitrary row number a token is assigned in the vocabulary list
+(e.g. "customer" → row 28) — it's just a lookup index, it doesn't mean anything
+by itself. The embedding is the actual content: 64 numbers stored at that row,
+which start random and get nudged during training based on the contexts a word
+appears in, so words used similarly end up with similar numbers (e.g.
+"customer"'s embedding shifted from `-0.057592` to `0.036630` in one dimension
+after training).
+
+**3. Connect a prediction, loss, gradient, and the saved parameter update.**
+The optimizer moves a weight in the opposite direction of its gradient, to
+reduce loss. The learning rate determines the step size — but with AdamW
+(this notebook's optimizer), that step size ends up close to the learning rate
+itself, not `learning_rate × gradient` like plain gradient descent. Concretely:
+gradient `0.000693` (positive) meant the weight should decrease; it moved from
+`-0.057592` to `-0.057602`, a shift of about `0.00001` — matching the learning
+rate (`1e-5`) almost exactly, not the much tinier `lr × gradient` you'd expect
+without AdamW's adaptive scaling.
+
+**4. What does attention combine, and why can't it look at future tokens?**
+Attention forces the model to pay attention to context. It combines
+information from the current token and every token before it, using learned
+proportions to create a weighted blend of everything so far (never anything
+after, since future-position scores are deliberately masked to negative
+infinity before the softmax). It's blocked from looking forward for two
+reasons: at generation time, future tokens genuinely don't exist yet; and
+during training, allowing it to peek ahead would let it "cheat" by copying the
+answer instead of learning to predict it.
+
+**5. How do probabilities become generated text? What changes with temperature?**
+The model predicts probabilities for the next word using attention and
+embeddings, then uses random sampling — weighted by those probabilities — to
+actually pick one, which is why the same trained model produces different
+sentences each time rather than one fixed output. Temperature reshapes those
+probabilities before sampling: low temperature exaggerates the gap between the
+top choice and everything else (more predictable output), high temperature
+narrows that gap (more varied output). No weights change when temperature
+changes — it only affects sampling at generation time. In our case, temperature
+barely changed anything because the trained model's probabilities were already
+sharply peaked (the top 6 words held ~98% of the probability mass) — there was
+very little uncertainty left for temperature to reshape.
+
+**6. Did the samples and loss curves support my prediction? What can I honestly conclude?**
+My prediction was right about the loss curve and the two starter-vocabulary
+eval groups — `starter_patterns` and `starter_transfer` both improved close to
+or exactly as expected. Reality was more extreme than predicted on
+`extend_corpus`: I expected it to "barely move," but it couldn't move at all
+until I fixed a vocabulary gap I hadn't anticipated, and even then only 2 of 6
+cases improved.
+
+Honestly, what I can conclude is narrower than "the model learned language." It
+learned to reproduce specific, heavily repeated sentence templates and word
+associations very precisely — 100% accuracy on `starter_patterns`, and a clean,
+interpretable embedding/probability shift for words like "customer." It also
+picked up at least one transferable shortcut (copying the most recently
+mentioned word back out), which is why it succeeded on 2 of the negation/
+spatial cases. But it did not learn general language understanding: my
+validation set only tested the same 8 templates with swapped words, not new
+sentence structures; 4 of 6 new-relationship cases still failed even with full
+vocabulary coverage; and the chat transcript shows outright ungrammatical or
+unrelated output outside its trained patterns (e.g. `"the apple is"` →
+`"not pick ."`). This is a tiny, narrow model that memorizes patterns well
+within its training distribution and breaks down quickly outside it — a
+controlled demonstration of how training works, not evidence of language
+understanding.
 
 ## One limitation and my next experiment
 
