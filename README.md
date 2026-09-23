@@ -9,8 +9,8 @@ Notebook: [custom_llm.ipynb](custom_llm.ipynb) ·
 [Open in Colab](https://colab.research.google.com/github/kmatuska98/custom-llm/blob/main/custom_llm.ipynb) ·
 [Assignment](ASSIGNMENT.md) · [3D embedding viewer](embedding-viewer.html)
 
-> **Status:** both experiments complete. Chat-interface evidence in progress (need
-> 2 more real interactions + a screenshot) — this README will be updated once that lands.
+> **Status:** both experiments and the chat interface are complete with evidence.
+> Remaining: fill in "What I learned" in my own words below before submitting.
 
 ## My choices and prediction
 
@@ -258,19 +258,44 @@ word pair — is a genuine, explainable tradeoff, not noise.
 
 ## My chat interface
 
-*(Pending — need 2 more real interactions beyond the 1 saved so far, plus a
-screenshot/recording, using the final trained model.)*
-
-Launch: notebook section 10 (same-notebook chat cell), or from the command line
-after training:
+Terminal interface (`chat.py`), run locally against the trained corpus-extension
+model (`llm_runs/expanded_run/model.pt`, 3,000 completed steps):
 
 ```sh
-python chat.py --model llm_runs/YOUR_RUN/model.pt --transcript results/my-chat.json
+python chat.py --model llm_runs/expanded_run/model.pt --transcript results/my-chat.json
 ```
 
+Full transcript: [results/my-chat.json](results/my-chat.json). Screenshot:
+
+![chat screenshot](docs/chat-screenshot.png)
+
+6 real interactions (only 3 required):
+
+| Prompt | Reply |
+|---|---|
+| `the customer` | `ordered the offering after checking the price .` |
+| `the shirt is not` | `clean .` |
+| `the ball is` | `behind the clock .` |
+| `Ava did not buy` | `the bread .` |
+| `the apple is` | `not pick .` |
+| `red` | `the station focused on travel and the local train .` |
+
+**One limitation, visible right here:** `the apple is` → `not pick .` is
+ungrammatical — "apple" only ever appeared in the classroom's fruit/kitchen
+templates, never as the subject of an `is not X` sentence, so the model has no
+learned continuation for that specific combination and falls back to fragments
+from unrelated training patterns. Similarly `red` (a single word with almost no
+context) produces a fluent-but-unrelated classroom-style sentence rather than
+anything about color — with only 2 tokens of context (`<BOS>` + `red`), there's
+barely any signal for attention to work with, so it falls back to the single
+most frequent sentence opener it saw in training.
+
 The interface is a tiny language model that continues a sentence from a fresh
-48-token context each prompt (no conversation memory); unknown words become
-`<UNK>`. It uses the actual trained nanoGPT (`model.pt`) — no external API.
+48-token context each prompt (no conversation memory — every prompt above was
+answered independently, not as a running conversation); unknown words become
+`<UNK>`. It uses the actual trained nanoGPT (`model.pt`), loaded directly by
+`chat.py` — no external API, and generating replies never updates the model's
+weights.
 
 ## What I learned
 
