@@ -1,7 +1,7 @@
 {
   "suite_id": "synthetic-language-v1",
   "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
-  "model_sha256": "6d11347de77445df725b7c647cc84fe9313fcd82fa9c1a6d9803f501803af0dd",
+  "model_sha256": "bf97561f112a3a122fdadf441d4634bde208517b3208584d2c4f957bc1214ac1",
   "stage": "final",
   "settings": {
     "seed": 2026,
@@ -12,21 +12,21 @@
   "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
   "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
   "overall": {
-    "correct": 24,
+    "correct": 26,
     "total": 48,
-    "scorable": 24,
-    "success_rate_all_cases": 0.5,
-    "accuracy_scorable_cases": 1.0,
-    "coverage": 0.5
+    "scorable": 30,
+    "success_rate_all_cases": 0.5416666666666666,
+    "accuracy_scorable_cases": 0.8666666666666667,
+    "coverage": 0.625
   },
   "by_group": {
     "extend_corpus": {
-      "correct": 0,
+      "correct": 2,
       "total": 24,
-      "scorable": 0,
-      "success_rate_all_cases": 0.0,
-      "accuracy_scorable_cases": null,
-      "coverage": 0.0
+      "scorable": 6,
+      "success_rate_all_cases": 0.08333333333333333,
+      "accuracy_scorable_cases": 0.3333333333333333,
+      "coverage": 0.25
     },
     "starter_patterns": {
       "correct": 16,
@@ -87,12 +87,12 @@
       "coverage": 0.0
     },
     "negation": {
-      "correct": 0,
+      "correct": 1,
       "total": 3,
-      "scorable": 0,
-      "success_rate_all_cases": 0.0,
-      "accuracy_scorable_cases": null,
-      "coverage": 0.0
+      "scorable": 3,
+      "success_rate_all_cases": 0.3333333333333333,
+      "accuracy_scorable_cases": 0.3333333333333333,
+      "coverage": 1.0
     },
     "new_wording": {
       "correct": 8,
@@ -127,12 +127,12 @@
       "coverage": 0.0
     },
     "spatial_relations": {
-      "correct": 0,
+      "correct": 1,
       "total": 3,
-      "scorable": 0,
-      "success_rate_all_cases": 0.0,
-      "accuracy_scorable_cases": null,
-      "coverage": 0.0
+      "scorable": 3,
+      "success_rate_all_cases": 0.3333333333333333,
+      "accuracy_scorable_cases": 0.3333333333333333,
+      "coverage": 1.0
     }
   }
 }

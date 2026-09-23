@@ -2,32 +2,32 @@
   "files": [
     {
       "file": "negation.txt",
-      "bytes": 122502,
-      "sha256": "7980889c2e4632bdf316f2efc0f251d7f380d44670762d88d1d41284c6c58a66",
+      "bytes": 126896,
+      "sha256": "5349d400c73e5fa8fc7c12bbaf7211682f7172466b0fa0156dc96498abf082a6",
       "warnings": [],
-      "characters": 122502,
-      "passages": 4400,
-      "unique_passages": 4090,
+      "characters": 126896,
+      "passages": 4614,
+      "unique_passages": 4170,
       "preview": "dana did not order the coffee . dana ordered the juice instead .\ndana did not choose the coffee . dana chose the juice instead .\ndana did not pick the coffee . dana picked the juice instead .\ndana did not request the coffee . dana requested the juice instead .\ndana did not order the soup . dana orde"
     },
     {
       "file": "spatial_relations.txt",
-      "bytes": 54952,
-      "sha256": "a5a93588e83b277f6b49cc3d9e9f7f85ccd6941b7024e18e2dd02a5b21b9b385",
+      "bytes": 99014,
+      "sha256": "3da04c92f90834f168f7628f4edd561ca2de5b24731d114817a7bd9234aef8f0",
       "warnings": [],
-      "characters": 54952,
-      "passages": 1632,
-      "unique_passages": 1632,
+      "characters": 99014,
+      "passages": 3030,
+      "unique_passages": 3030,
       "preview": "the cup is above the shelf . the shelf is below the cup .\nthe cup is inside the shelf . the shelf contains the cup .\nthe cup is left of the shelf . the shelf is right of the cup .\nthe cup is in front of the shelf . the shelf is behind the cup .\nthe cup is on top of the shelf . the shelf is under the"
     }
   ],
   "ignored": [],
-  "external_passages": 6032,
+  "external_passages": 7644,
   "mode": "classroom",
   "base_passages": 6200,
-  "unique_passages": 10314,
-  "new_unique_passages": 5722,
-  "duplicates_removed": 1918,
+  "unique_passages": 11792,
+  "new_unique_passages": 7200,
+  "duplicates_removed": 2052,
   "max_passage_tokens": 47,
   "split_unit": "deduplicated passage, not source file"
 }
