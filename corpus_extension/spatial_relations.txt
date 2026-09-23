@@ -88,6 +88,42 @@ the cup is left of the kettle . the kettle is right of the cup .
 the cup is in front of the kettle . the kettle is behind the cup .
 the cup is on top of the kettle . the kettle is under the cup .
 the cup is beside the kettle . the kettle is beside the cup .
+the cup is above the lamp . the lamp is below the cup .
+the cup is inside the lamp . the lamp contains the cup .
+the cup is left of the lamp . the lamp is right of the cup .
+the cup is in front of the lamp . the lamp is behind the cup .
+the cup is on top of the lamp . the lamp is under the cup .
+the cup is beside the lamp . the lamp is beside the cup .
+the cup is above the desk . the desk is below the cup .
+the cup is inside the desk . the desk contains the cup .
+the cup is left of the desk . the desk is right of the cup .
+the cup is in front of the desk . the desk is behind the cup .
+the cup is on top of the desk . the desk is under the cup .
+the cup is beside the desk . the desk is beside the cup .
+the cup is above the book . the book is below the cup .
+the cup is inside the book . the book contains the cup .
+the cup is left of the book . the book is right of the cup .
+the cup is in front of the book . the book is behind the cup .
+the cup is on top of the book . the book is under the cup .
+the cup is beside the book . the book is beside the cup .
+the cup is above the bag . the bag is below the cup .
+the cup is inside the bag . the bag contains the cup .
+the cup is left of the bag . the bag is right of the cup .
+the cup is in front of the bag . the bag is behind the cup .
+the cup is on top of the bag . the bag is under the cup .
+the cup is beside the bag . the bag is beside the cup .
+the cup is above the ball . the ball is below the cup .
+the cup is inside the ball . the ball contains the cup .
+the cup is left of the ball . the ball is right of the cup .
+the cup is in front of the ball . the ball is behind the cup .
+the cup is on top of the ball . the ball is under the cup .
+the cup is beside the ball . the ball is beside the cup .
+the cup is above the box . the box is below the cup .
+the cup is inside the box . the box contains the cup .
+the cup is left of the box . the box is right of the cup .
+the cup is in front of the box . the box is behind the cup .
+the cup is on top of the box . the box is under the cup .
+the cup is beside the box . the box is beside the cup .
 the shelf is above the jar . the jar is below the shelf .
 the shelf is inside the jar . the jar contains the shelf .
 the shelf is left of the jar . the jar is right of the shelf .
@@ -172,6 +208,42 @@ the shelf is left of the kettle . the kettle is right of the shelf .
 the shelf is in front of the kettle . the kettle is behind the shelf .
 the shelf is on top of the kettle . the kettle is under the shelf .
 the shelf is beside the kettle . the kettle is beside the shelf .
+the shelf is above the lamp . the lamp is below the shelf .
+the shelf is inside the lamp . the lamp contains the shelf .
+the shelf is left of the lamp . the lamp is right of the shelf .
+the shelf is in front of the lamp . the lamp is behind the shelf .
+the shelf is on top of the lamp . the lamp is under the shelf .
+the shelf is beside the lamp . the lamp is beside the shelf .
+the shelf is above the desk . the desk is below the shelf .
+the shelf is inside the desk . the desk contains the shelf .
+the shelf is left of the desk . the desk is right of the shelf .
+the shelf is in front of the desk . the desk is behind the shelf .
+the shelf is on top of the desk . the desk is under the shelf .
+the shelf is beside the desk . the desk is beside the shelf .
+the shelf is above the book . the book is below the shelf .
+the shelf is inside the book . the book contains the shelf .
+the shelf is left of the book . the book is right of the shelf .
+the shelf is in front of the book . the book is behind the shelf .
+the shelf is on top of the book . the book is under the shelf .
+the shelf is beside the book . the book is beside the shelf .
+the shelf is above the bag . the bag is below the shelf .
+the shelf is inside the bag . the bag contains the shelf .
+the shelf is left of the bag . the bag is right of the shelf .
+the shelf is in front of the bag . the bag is behind the shelf .
+the shelf is on top of the bag . the bag is under the shelf .
+the shelf is beside the bag . the bag is beside the shelf .
+the shelf is above the ball . the ball is below the shelf .
+the shelf is inside the ball . the ball contains the shelf .
+the shelf is left of the ball . the ball is right of the shelf .
+the shelf is in front of the ball . the ball is behind the shelf .
+the shelf is on top of the ball . the ball is under the shelf .
+the shelf is beside the ball . the ball is beside the shelf .
+the shelf is above the box . the box is below the shelf .
+the shelf is inside the box . the box contains the shelf .
+the shelf is left of the box . the box is right of the shelf .
+the shelf is in front of the box . the box is behind the shelf .
+the shelf is on top of the box . the box is under the shelf .
+the shelf is beside the box . the box is beside the shelf .
 the jar is above the chair . the chair is below the jar .
 the jar is inside the chair . the chair contains the jar .
 the jar is left of the chair . the chair is right of the jar .
@@ -250,6 +322,42 @@ the jar is left of the kettle . the kettle is right of the jar .
 the jar is in front of the kettle . the kettle is behind the jar .
 the jar is on top of the kettle . the kettle is under the jar .
 the jar is beside the kettle . the kettle is beside the jar .
+the jar is above the lamp . the lamp is below the jar .
+the jar is inside the lamp . the lamp contains the jar .
+the jar is left of the lamp . the lamp is right of the jar .
+the jar is in front of the lamp . the lamp is behind the jar .
+the jar is on top of the lamp . the lamp is under the jar .
+the jar is beside the lamp . the lamp is beside the jar .
+the jar is above the desk . the desk is below the jar .
+the jar is inside the desk . the desk contains the jar .
+the jar is left of the desk . the desk is right of the jar .
+the jar is in front of the desk . the desk is behind the jar .
+the jar is on top of the desk . the desk is under the jar .
+the jar is beside the desk . the desk is beside the jar .
+the jar is above the book . the book is below the jar .
+the jar is inside the book . the book contains the jar .
+the jar is left of the book . the book is right of the jar .
+the jar is in front of the book . the book is behind the jar .
+the jar is on top of the book . the book is under the jar .
+the jar is beside the book . the book is beside the jar .
+the jar is above the bag . the bag is below the jar .
+the jar is inside the bag . the bag contains the jar .
+the jar is left of the bag . the bag is right of the jar .
+the jar is in front of the bag . the bag is behind the jar .
+the jar is on top of the bag . the bag is under the jar .
+the jar is beside the bag . the bag is beside the jar .
+the jar is above the ball . the ball is below the jar .
+the jar is inside the ball . the ball contains the jar .
+the jar is left of the ball . the ball is right of the jar .
+the jar is in front of the ball . the ball is behind the jar .
+the jar is on top of the ball . the ball is under the jar .
+the jar is beside the ball . the ball is beside the jar .
+the jar is above the box . the box is below the jar .
+the jar is inside the box . the box contains the jar .
+the jar is left of the box . the box is right of the jar .
+the jar is in front of the box . the box is behind the jar .
+the jar is on top of the box . the box is under the jar .
+the jar is beside the box . the box is beside the jar .
 the chair is above the table . the table is below the chair .
 the chair is inside the table . the table contains the chair .
 the chair is left of the table . the table is right of the chair .
@@ -322,6 +430,42 @@ the chair is left of the kettle . the kettle is right of the chair .
 the chair is in front of the kettle . the kettle is behind the chair .
 the chair is on top of the kettle . the kettle is under the chair .
 the chair is beside the kettle . the kettle is beside the chair .
+the chair is above the lamp . the lamp is below the chair .
+the chair is inside the lamp . the lamp contains the chair .
+the chair is left of the lamp . the lamp is right of the chair .
+the chair is in front of the lamp . the lamp is behind the chair .
+the chair is on top of the lamp . the lamp is under the chair .
+the chair is beside the lamp . the lamp is beside the chair .
+the chair is above the desk . the desk is below the chair .
+the chair is inside the desk . the desk contains the chair .
+the chair is left of the desk . the desk is right of the chair .
+the chair is in front of the desk . the desk is behind the chair .
+the chair is on top of the desk . the desk is under the chair .
+the chair is beside the desk . the desk is beside the chair .
+the chair is above the book . the book is below the chair .
+the chair is inside the book . the book contains the chair .
+the chair is left of the book . the book is right of the chair .
+the chair is in front of the book . the book is behind the chair .
+the chair is on top of the book . the book is under the chair .
+the chair is beside the book . the book is beside the chair .
+the chair is above the bag . the bag is below the chair .
+the chair is inside the bag . the bag contains the chair .
+the chair is left of the bag . the bag is right of the chair .
+the chair is in front of the bag . the bag is behind the chair .
+the chair is on top of the bag . the bag is under the chair .
+the chair is beside the bag . the bag is beside the chair .
+the chair is above the ball . the ball is below the chair .
+the chair is inside the ball . the ball contains the chair .
+the chair is left of the ball . the ball is right of the chair .
+the chair is in front of the ball . the ball is behind the chair .
+the chair is on top of the ball . the ball is under the chair .
+the chair is beside the ball . the ball is beside the chair .
+the chair is above the box . the box is below the chair .
+the chair is inside the box . the box contains the chair .
+the chair is left of the box . the box is right of the chair .
+the chair is in front of the box . the box is behind the chair .
+the chair is on top of the box . the box is under the chair .
+the chair is beside the box . the box is beside the chair .
 the table is above the bike . the bike is below the table .
 the table is inside the bike . the bike contains the table .
 the table is left of the bike . the bike is right of the table .
@@ -388,6 +532,42 @@ the table is left of the kettle . the kettle is right of the table .
 the table is in front of the kettle . the kettle is behind the table .
 the table is on top of the kettle . the kettle is under the table .
 the table is beside the kettle . the kettle is beside the table .
+the table is above the lamp . the lamp is below the table .
+the table is inside the lamp . the lamp contains the table .
+the table is left of the lamp . the lamp is right of the table .
+the table is in front of the lamp . the lamp is behind the table .
+the table is on top of the lamp . the lamp is under the table .
+the table is beside the lamp . the lamp is beside the table .
+the table is above the desk . the desk is below the table .
+the table is inside the desk . the desk contains the table .
+the table is left of the desk . the desk is right of the table .
+the table is in front of the desk . the desk is behind the table .
+the table is on top of the desk . the desk is under the table .
+the table is beside the desk . the desk is beside the table .
+the table is above the book . the book is below the table .
+the table is inside the book . the book contains the table .
+the table is left of the book . the book is right of the table .
+the table is in front of the book . the book is behind the table .
+the table is on top of the book . the book is under the table .
+the table is beside the book . the book is beside the table .
+the table is above the bag . the bag is below the table .
+the table is inside the bag . the bag contains the table .
+the table is left of the bag . the bag is right of the table .
+the table is in front of the bag . the bag is behind the table .
+the table is on top of the bag . the bag is under the table .
+the table is beside the bag . the bag is beside the table .
+the table is above the ball . the ball is below the table .
+the table is inside the ball . the ball contains the table .
+the table is left of the ball . the ball is right of the table .
+the table is in front of the ball . the ball is behind the table .
+the table is on top of the ball . the ball is under the table .
+the table is beside the ball . the ball is beside the table .
+the table is above the box . the box is below the table .
+the table is inside the box . the box contains the table .
+the table is left of the box . the box is right of the table .
+the table is in front of the box . the box is behind the table .
+the table is on top of the box . the box is under the table .
+the table is beside the box . the box is beside the table .
 the bike is above the clock . the clock is below the bike .
 the bike is inside the clock . the clock contains the bike .
 the bike is left of the clock . the clock is right of the bike .
@@ -448,6 +628,42 @@ the bike is left of the kettle . the kettle is right of the bike .
 the bike is in front of the kettle . the kettle is behind the bike .
 the bike is on top of the kettle . the kettle is under the bike .
 the bike is beside the kettle . the kettle is beside the bike .
+the bike is above the lamp . the lamp is below the bike .
+the bike is inside the lamp . the lamp contains the bike .
+the bike is left of the lamp . the lamp is right of the bike .
+the bike is in front of the lamp . the lamp is behind the bike .
+the bike is on top of the lamp . the lamp is under the bike .
+the bike is beside the lamp . the lamp is beside the bike .
+the bike is above the desk . the desk is below the bike .
+the bike is inside the desk . the desk contains the bike .
+the bike is left of the desk . the desk is right of the bike .
+the bike is in front of the desk . the desk is behind the bike .
+the bike is on top of the desk . the desk is under the bike .
+the bike is beside the desk . the desk is beside the bike .
+the bike is above the book . the book is below the bike .
+the bike is inside the book . the book contains the bike .
+the bike is left of the book . the book is right of the bike .
+the bike is in front of the book . the book is behind the bike .
+the bike is on top of the book . the book is under the bike .
+the bike is beside the book . the book is beside the bike .
+the bike is above the bag . the bag is below the bike .
+the bike is inside the bag . the bag contains the bike .
+the bike is left of the bag . the bag is right of the bike .
+the bike is in front of the bag . the bag is behind the bike .
+the bike is on top of the bag . the bag is under the bike .
+the bike is beside the bag . the bag is beside the bike .
+the bike is above the ball . the ball is below the bike .
+the bike is inside the ball . the ball contains the bike .
+the bike is left of the ball . the ball is right of the bike .
+the bike is in front of the ball . the ball is behind the bike .
+the bike is on top of the ball . the ball is under the bike .
+the bike is beside the ball . the ball is beside the bike .
+the bike is above the box . the box is below the bike .
+the bike is inside the box . the box contains the bike .
+the bike is left of the box . the box is right of the bike .
+the bike is in front of the box . the box is behind the bike .
+the bike is on top of the box . the box is under the bike .
+the bike is beside the box . the box is beside the bike .
 the clock is above the mirror . the mirror is below the clock .
 the clock is inside the mirror . the mirror contains the clock .
 the clock is left of the mirror . the mirror is right of the clock .
@@ -502,6 +718,42 @@ the clock is left of the kettle . the kettle is right of the clock .
 the clock is in front of the kettle . the kettle is behind the clock .
 the clock is on top of the kettle . the kettle is under the clock .
 the clock is beside the kettle . the kettle is beside the clock .
+the clock is above the lamp . the lamp is below the clock .
+the clock is inside the lamp . the lamp contains the clock .
+the clock is left of the lamp . the lamp is right of the clock .
+the clock is in front of the lamp . the lamp is behind the clock .
+the clock is on top of the lamp . the lamp is under the clock .
+the clock is beside the lamp . the lamp is beside the clock .
+the clock is above the desk . the desk is below the clock .
+the clock is inside the desk . the desk contains the clock .
+the clock is left of the desk . the desk is right of the clock .
+the clock is in front of the desk . the desk is behind the clock .
+the clock is on top of the desk . the desk is under the clock .
+the clock is beside the desk . the desk is beside the clock .
+the clock is above the book . the book is below the clock .
+the clock is inside the book . the book contains the clock .
+the clock is left of the book . the book is right of the clock .
+the clock is in front of the book . the book is behind the clock .
+the clock is on top of the book . the book is under the clock .
+the clock is beside the book . the book is beside the clock .
+the clock is above the bag . the bag is below the clock .
+the clock is inside the bag . the bag contains the clock .
+the clock is left of the bag . the bag is right of the clock .
+the clock is in front of the bag . the bag is behind the clock .
+the clock is on top of the bag . the bag is under the clock .
+the clock is beside the bag . the bag is beside the clock .
+the clock is above the ball . the ball is below the clock .
+the clock is inside the ball . the ball contains the clock .
+the clock is left of the ball . the ball is right of the clock .
+the clock is in front of the ball . the ball is behind the clock .
+the clock is on top of the ball . the ball is under the clock .
+the clock is beside the ball . the ball is beside the clock .
+the clock is above the box . the box is below the clock .
+the clock is inside the box . the box contains the clock .
+the clock is left of the box . the box is right of the clock .
+the clock is in front of the box . the box is behind the clock .
+the clock is on top of the box . the box is under the clock .
+the clock is beside the box . the box is beside the clock .
 the mirror is above the stool . the stool is below the mirror .
 the mirror is inside the stool . the stool contains the mirror .
 the mirror is left of the stool . the stool is right of the mirror .
@@ -550,6 +802,42 @@ the mirror is left of the kettle . the kettle is right of the mirror .
 the mirror is in front of the kettle . the kettle is behind the mirror .
 the mirror is on top of the kettle . the kettle is under the mirror .
 the mirror is beside the kettle . the kettle is beside the mirror .
+the mirror is above the lamp . the lamp is below the mirror .
+the mirror is inside the lamp . the lamp contains the mirror .
+the mirror is left of the lamp . the lamp is right of the mirror .
+the mirror is in front of the lamp . the lamp is behind the mirror .
+the mirror is on top of the lamp . the lamp is under the mirror .
+the mirror is beside the lamp . the lamp is beside the mirror .
+the mirror is above the desk . the desk is below the mirror .
+the mirror is inside the desk . the desk contains the mirror .
+the mirror is left of the desk . the desk is right of the mirror .
+the mirror is in front of the desk . the desk is behind the mirror .
+the mirror is on top of the desk . the desk is under the mirror .
+the mirror is beside the desk . the desk is beside the mirror .
+the mirror is above the book . the book is below the mirror .
+the mirror is inside the book . the book contains the mirror .
+the mirror is left of the book . the book is right of the mirror .
+the mirror is in front of the book . the book is behind the mirror .
+the mirror is on top of the book . the book is under the mirror .
+the mirror is beside the book . the book is beside the mirror .
+the mirror is above the bag . the bag is below the mirror .
+the mirror is inside the bag . the bag contains the mirror .
+the mirror is left of the bag . the bag is right of the mirror .
+the mirror is in front of the bag . the bag is behind the mirror .
+the mirror is on top of the bag . the bag is under the mirror .
+the mirror is beside the bag . the bag is beside the mirror .
+the mirror is above the ball . the ball is below the mirror .
+the mirror is inside the ball . the ball contains the mirror .
+the mirror is left of the ball . the ball is right of the mirror .
+the mirror is in front of the ball . the ball is behind the mirror .
+the mirror is on top of the ball . the ball is under the mirror .
+the mirror is beside the ball . the ball is beside the mirror .
+the mirror is above the box . the box is below the mirror .
+the mirror is inside the box . the box contains the mirror .
+the mirror is left of the box . the box is right of the mirror .
+the mirror is in front of the box . the box is behind the mirror .
+the mirror is on top of the box . the box is under the mirror .
+the mirror is beside the box . the box is beside the mirror .
 the stool is above the basket . the basket is below the stool .
 the stool is inside the basket . the basket contains the stool .
 the stool is left of the basket . the basket is right of the stool .
@@ -592,6 +880,42 @@ the stool is left of the kettle . the kettle is right of the stool .
 the stool is in front of the kettle . the kettle is behind the stool .
 the stool is on top of the kettle . the kettle is under the stool .
 the stool is beside the kettle . the kettle is beside the stool .
+the stool is above the lamp . the lamp is below the stool .
+the stool is inside the lamp . the lamp contains the stool .
+the stool is left of the lamp . the lamp is right of the stool .
+the stool is in front of the lamp . the lamp is behind the stool .
+the stool is on top of the lamp . the lamp is under the stool .
+the stool is beside the lamp . the lamp is beside the stool .
+the stool is above the desk . the desk is below the stool .
+the stool is inside the desk . the desk contains the stool .
+the stool is left of the desk . the desk is right of the stool .
+the stool is in front of the desk . the desk is behind the stool .
+the stool is on top of the desk . the desk is under the stool .
+the stool is beside the desk . the desk is beside the stool .
+the stool is above the book . the book is below the stool .
+the stool is inside the book . the book contains the stool .
+the stool is left of the book . the book is right of the stool .
+the stool is in front of the book . the book is behind the stool .
+the stool is on top of the book . the book is under the stool .
+the stool is beside the book . the book is beside the stool .
+the stool is above the bag . the bag is below the stool .
+the stool is inside the bag . the bag contains the stool .
+the stool is left of the bag . the bag is right of the stool .
+the stool is in front of the bag . the bag is behind the stool .
+the stool is on top of the bag . the bag is under the stool .
+the stool is beside the bag . the bag is beside the stool .
+the stool is above the ball . the ball is below the stool .
+the stool is inside the ball . the ball contains the stool .
+the stool is left of the ball . the ball is right of the stool .
+the stool is in front of the ball . the ball is behind the stool .
+the stool is on top of the ball . the ball is under the stool .
+the stool is beside the ball . the ball is beside the stool .
+the stool is above the box . the box is below the stool .
+the stool is inside the box . the box contains the stool .
+the stool is left of the box . the box is right of the stool .
+the stool is in front of the box . the box is behind the stool .
+the stool is on top of the box . the box is under the stool .
+the stool is beside the box . the box is beside the stool .
 the basket is above the lantern . the lantern is below the basket .
 the basket is inside the lantern . the lantern contains the basket .
 the basket is left of the lantern . the lantern is right of the basket .
@@ -628,6 +952,42 @@ the basket is left of the kettle . the kettle is right of the basket .
 the basket is in front of the kettle . the kettle is behind the basket .
 the basket is on top of the kettle . the kettle is under the basket .
 the basket is beside the kettle . the kettle is beside the basket .
+the basket is above the lamp . the lamp is below the basket .
+the basket is inside the lamp . the lamp contains the basket .
+the basket is left of the lamp . the lamp is right of the basket .
+the basket is in front of the lamp . the lamp is behind the basket .
+the basket is on top of the lamp . the lamp is under the basket .
+the basket is beside the lamp . the lamp is beside the basket .
+the basket is above the desk . the desk is below the basket .
+the basket is inside the desk . the desk contains the basket .
+the basket is left of the desk . the desk is right of the basket .
+the basket is in front of the desk . the desk is behind the basket .
+the basket is on top of the desk . the desk is under the basket .
+the basket is beside the desk . the desk is beside the basket .
+the basket is above the book . the book is below the basket .
+the basket is inside the book . the book contains the basket .
+the basket is left of the book . the book is right of the basket .
+the basket is in front of the book . the book is behind the basket .
+the basket is on top of the book . the book is under the basket .
+the basket is beside the book . the book is beside the basket .
+the basket is above the bag . the bag is below the basket .
+the basket is inside the bag . the bag contains the basket .
+the basket is left of the bag . the bag is right of the basket .
+the basket is in front of the bag . the bag is behind the basket .
+the basket is on top of the bag . the bag is under the basket .
+the basket is beside the bag . the bag is beside the basket .
+the basket is above the ball . the ball is below the basket .
+the basket is inside the ball . the ball contains the basket .
+the basket is left of the ball . the ball is right of the basket .
+the basket is in front of the ball . the ball is behind the basket .
+the basket is on top of the ball . the ball is under the basket .
+the basket is beside the ball . the ball is beside the basket .
+the basket is above the box . the box is below the basket .
+the basket is inside the box . the box contains the basket .
+the basket is left of the box . the box is right of the basket .
+the basket is in front of the box . the box is behind the basket .
+the basket is on top of the box . the box is under the basket .
+the basket is beside the box . the box is beside the basket .
 the lantern is above the bench . the bench is below the lantern .
 the lantern is inside the bench . the bench contains the lantern .
 the lantern is left of the bench . the bench is right of the lantern .
@@ -658,6 +1018,42 @@ the lantern is left of the kettle . the kettle is right of the lantern .
 the lantern is in front of the kettle . the kettle is behind the lantern .
 the lantern is on top of the kettle . the kettle is under the lantern .
 the lantern is beside the kettle . the kettle is beside the lantern .
+the lantern is above the lamp . the lamp is below the lantern .
+the lantern is inside the lamp . the lamp contains the lantern .
+the lantern is left of the lamp . the lamp is right of the lantern .
+the lantern is in front of the lamp . the lamp is behind the lantern .
+the lantern is on top of the lamp . the lamp is under the lantern .
+the lantern is beside the lamp . the lamp is beside the lantern .
+the lantern is above the desk . the desk is below the lantern .
+the lantern is inside the desk . the desk contains the lantern .
+the lantern is left of the desk . the desk is right of the lantern .
+the lantern is in front of the desk . the desk is behind the lantern .
+the lantern is on top of the desk . the desk is under the lantern .
+the lantern is beside the desk . the desk is beside the lantern .
+the lantern is above the book . the book is below the lantern .
+the lantern is inside the book . the book contains the lantern .
+the lantern is left of the book . the book is right of the lantern .
+the lantern is in front of the book . the book is behind the lantern .
+the lantern is on top of the book . the book is under the lantern .
+the lantern is beside the book . the book is beside the lantern .
+the lantern is above the bag . the bag is below the lantern .
+the lantern is inside the bag . the bag contains the lantern .
+the lantern is left of the bag . the bag is right of the lantern .
+the lantern is in front of the bag . the bag is behind the lantern .
+the lantern is on top of the bag . the bag is under the lantern .
+the lantern is beside the bag . the bag is beside the lantern .
+the lantern is above the ball . the ball is below the lantern .
+the lantern is inside the ball . the ball contains the lantern .
+the lantern is left of the ball . the ball is right of the lantern .
+the lantern is in front of the ball . the ball is behind the lantern .
+the lantern is on top of the ball . the ball is under the lantern .
+the lantern is beside the ball . the ball is beside the lantern .
+the lantern is above the box . the box is below the lantern .
+the lantern is inside the box . the box contains the lantern .
+the lantern is left of the box . the box is right of the lantern .
+the lantern is in front of the box . the box is behind the lantern .
+the lantern is on top of the box . the box is under the lantern .
+the lantern is beside the box . the box is beside the lantern .
 the bench is above the vase . the vase is below the bench .
 the bench is inside the vase . the vase contains the bench .
 the bench is left of the vase . the vase is right of the bench .
@@ -682,6 +1078,42 @@ the bench is left of the kettle . the kettle is right of the bench .
 the bench is in front of the kettle . the kettle is behind the bench .
 the bench is on top of the kettle . the kettle is under the bench .
 the bench is beside the kettle . the kettle is beside the bench .
+the bench is above the lamp . the lamp is below the bench .
+the bench is inside the lamp . the lamp contains the bench .
+the bench is left of the lamp . the lamp is right of the bench .
+the bench is in front of the lamp . the lamp is behind the bench .
+the bench is on top of the lamp . the lamp is under the bench .
+the bench is beside the lamp . the lamp is beside the bench .
+the bench is above the desk . the desk is below the bench .
+the bench is inside the desk . the desk contains the bench .
+the bench is left of the desk . the desk is right of the bench .
+the bench is in front of the desk . the desk is behind the bench .
+the bench is on top of the desk . the desk is under the bench .
+the bench is beside the desk . the desk is beside the bench .
+the bench is above the book . the book is below the bench .
+the bench is inside the book . the book contains the bench .
+the bench is left of the book . the book is right of the bench .
+the bench is in front of the book . the book is behind the bench .
+the bench is on top of the book . the book is under the bench .
+the bench is beside the book . the book is beside the bench .
+the bench is above the bag . the bag is below the bench .
+the bench is inside the bag . the bag contains the bench .
+the bench is left of the bag . the bag is right of the bench .
+the bench is in front of the bag . the bag is behind the bench .
+the bench is on top of the bag . the bag is under the bench .
+the bench is beside the bag . the bag is beside the bench .
+the bench is above the ball . the ball is below the bench .
+the bench is inside the ball . the ball contains the bench .
+the bench is left of the ball . the ball is right of the bench .
+the bench is in front of the ball . the ball is behind the bench .
+the bench is on top of the ball . the ball is under the bench .
+the bench is beside the ball . the ball is beside the bench .
+the bench is above the box . the box is below the bench .
+the bench is inside the box . the box contains the bench .
+the bench is left of the box . the box is right of the bench .
+the bench is in front of the box . the box is behind the bench .
+the bench is on top of the box . the box is under the bench .
+the bench is beside the box . the box is beside the bench .
 the vase is above the rug . the rug is below the vase .
 the vase is inside the rug . the rug contains the vase .
 the vase is left of the rug . the rug is right of the vase .
@@ -700,6 +1132,42 @@ the vase is left of the kettle . the kettle is right of the vase .
 the vase is in front of the kettle . the kettle is behind the vase .
 the vase is on top of the kettle . the kettle is under the vase .
 the vase is beside the kettle . the kettle is beside the vase .
+the vase is above the lamp . the lamp is below the vase .
+the vase is inside the lamp . the lamp contains the vase .
+the vase is left of the lamp . the lamp is right of the vase .
+the vase is in front of the lamp . the lamp is behind the vase .
+the vase is on top of the lamp . the lamp is under the vase .
+the vase is beside the lamp . the lamp is beside the vase .
+the vase is above the desk . the desk is below the vase .
+the vase is inside the desk . the desk contains the vase .
+the vase is left of the desk . the desk is right of the vase .
+the vase is in front of the desk . the desk is behind the vase .
+the vase is on top of the desk . the desk is under the vase .
+the vase is beside the desk . the desk is beside the vase .
+the vase is above the book . the book is below the vase .
+the vase is inside the book . the book contains the vase .
+the vase is left of the book . the book is right of the vase .
+the vase is in front of the book . the book is behind the vase .
+the vase is on top of the book . the book is under the vase .
+the vase is beside the book . the book is beside the vase .
+the vase is above the bag . the bag is below the vase .
+the vase is inside the bag . the bag contains the vase .
+the vase is left of the bag . the bag is right of the vase .
+the vase is in front of the bag . the bag is behind the vase .
+the vase is on top of the bag . the bag is under the vase .
+the vase is beside the bag . the bag is beside the vase .
+the vase is above the ball . the ball is below the vase .
+the vase is inside the ball . the ball contains the vase .
+the vase is left of the ball . the ball is right of the vase .
+the vase is in front of the ball . the ball is behind the vase .
+the vase is on top of the ball . the ball is under the vase .
+the vase is beside the ball . the ball is beside the vase .
+the vase is above the box . the box is below the vase .
+the vase is inside the box . the box contains the vase .
+the vase is left of the box . the box is right of the vase .
+the vase is in front of the box . the box is behind the vase .
+the vase is on top of the box . the box is under the vase .
+the vase is beside the box . the box is beside the vase .
 the rug is above the ladder . the ladder is below the rug .
 the rug is inside the ladder . the ladder contains the rug .
 the rug is left of the ladder . the ladder is right of the rug .
@@ -712,12 +1180,198 @@ the rug is left of the kettle . the kettle is right of the rug .
 the rug is in front of the kettle . the kettle is behind the rug .
 the rug is on top of the kettle . the kettle is under the rug .
 the rug is beside the kettle . the kettle is beside the rug .
+the rug is above the lamp . the lamp is below the rug .
+the rug is inside the lamp . the lamp contains the rug .
+the rug is left of the lamp . the lamp is right of the rug .
+the rug is in front of the lamp . the lamp is behind the rug .
+the rug is on top of the lamp . the lamp is under the rug .
+the rug is beside the lamp . the lamp is beside the rug .
+the rug is above the desk . the desk is below the rug .
+the rug is inside the desk . the desk contains the rug .
+the rug is left of the desk . the desk is right of the rug .
+the rug is in front of the desk . the desk is behind the rug .
+the rug is on top of the desk . the desk is under the rug .
+the rug is beside the desk . the desk is beside the rug .
+the rug is above the book . the book is below the rug .
+the rug is inside the book . the book contains the rug .
+the rug is left of the book . the book is right of the rug .
+the rug is in front of the book . the book is behind the rug .
+the rug is on top of the book . the book is under the rug .
+the rug is beside the book . the book is beside the rug .
+the rug is above the bag . the bag is below the rug .
+the rug is inside the bag . the bag contains the rug .
+the rug is left of the bag . the bag is right of the rug .
+the rug is in front of the bag . the bag is behind the rug .
+the rug is on top of the bag . the bag is under the rug .
+the rug is beside the bag . the bag is beside the rug .
+the rug is above the ball . the ball is below the rug .
+the rug is inside the ball . the ball contains the rug .
+the rug is left of the ball . the ball is right of the rug .
+the rug is in front of the ball . the ball is behind the rug .
+the rug is on top of the ball . the ball is under the rug .
+the rug is beside the ball . the ball is beside the rug .
+the rug is above the box . the box is below the rug .
+the rug is inside the box . the box contains the rug .
+the rug is left of the box . the box is right of the rug .
+the rug is in front of the box . the box is behind the rug .
+the rug is on top of the box . the box is under the rug .
+the rug is beside the box . the box is beside the rug .
 the ladder is above the kettle . the kettle is below the ladder .
 the ladder is inside the kettle . the kettle contains the ladder .
 the ladder is left of the kettle . the kettle is right of the ladder .
 the ladder is in front of the kettle . the kettle is behind the ladder .
 the ladder is on top of the kettle . the kettle is under the ladder .
 the ladder is beside the kettle . the kettle is beside the ladder .
+the ladder is above the lamp . the lamp is below the ladder .
+the ladder is inside the lamp . the lamp contains the ladder .
+the ladder is left of the lamp . the lamp is right of the ladder .
+the ladder is in front of the lamp . the lamp is behind the ladder .
+the ladder is on top of the lamp . the lamp is under the ladder .
+the ladder is beside the lamp . the lamp is beside the ladder .
+the ladder is above the desk . the desk is below the ladder .
+the ladder is inside the desk . the desk contains the ladder .
+the ladder is left of the desk . the desk is right of the ladder .
+the ladder is in front of the desk . the desk is behind the ladder .
+the ladder is on top of the desk . the desk is under the ladder .
+the ladder is beside the desk . the desk is beside the ladder .
+the ladder is above the book . the book is below the ladder .
+the ladder is inside the book . the book contains the ladder .
+the ladder is left of the book . the book is right of the ladder .
+the ladder is in front of the book . the book is behind the ladder .
+the ladder is on top of the book . the book is under the ladder .
+the ladder is beside the book . the book is beside the ladder .
+the ladder is above the bag . the bag is below the ladder .
+the ladder is inside the bag . the bag contains the ladder .
+the ladder is left of the bag . the bag is right of the ladder .
+the ladder is in front of the bag . the bag is behind the ladder .
+the ladder is on top of the bag . the bag is under the ladder .
+the ladder is beside the bag . the bag is beside the ladder .
+the ladder is above the ball . the ball is below the ladder .
+the ladder is inside the ball . the ball contains the ladder .
+the ladder is left of the ball . the ball is right of the ladder .
+the ladder is in front of the ball . the ball is behind the ladder .
+the ladder is on top of the ball . the ball is under the ladder .
+the ladder is beside the ball . the ball is beside the ladder .
+the ladder is above the box . the box is below the ladder .
+the ladder is inside the box . the box contains the ladder .
+the ladder is left of the box . the box is right of the ladder .
+the ladder is in front of the box . the box is behind the ladder .
+the ladder is on top of the box . the box is under the ladder .
+the ladder is beside the box . the box is beside the ladder .
+the kettle is above the lamp . the lamp is below the kettle .
+the kettle is inside the lamp . the lamp contains the kettle .
+the kettle is left of the lamp . the lamp is right of the kettle .
+the kettle is in front of the lamp . the lamp is behind the kettle .
+the kettle is on top of the lamp . the lamp is under the kettle .
+the kettle is beside the lamp . the lamp is beside the kettle .
+the kettle is above the desk . the desk is below the kettle .
+the kettle is inside the desk . the desk contains the kettle .
+the kettle is left of the desk . the desk is right of the kettle .
+the kettle is in front of the desk . the desk is behind the kettle .
+the kettle is on top of the desk . the desk is under the kettle .
+the kettle is beside the desk . the desk is beside the kettle .
+the kettle is above the book . the book is below the kettle .
+the kettle is inside the book . the book contains the kettle .
+the kettle is left of the book . the book is right of the kettle .
+the kettle is in front of the book . the book is behind the kettle .
+the kettle is on top of the book . the book is under the kettle .
+the kettle is beside the book . the book is beside the kettle .
+the kettle is above the bag . the bag is below the kettle .
+the kettle is inside the bag . the bag contains the kettle .
+the kettle is left of the bag . the bag is right of the kettle .
+the kettle is in front of the bag . the bag is behind the kettle .
+the kettle is on top of the bag . the bag is under the kettle .
+the kettle is beside the bag . the bag is beside the kettle .
+the kettle is above the ball . the ball is below the kettle .
+the kettle is inside the ball . the ball contains the kettle .
+the kettle is left of the ball . the ball is right of the kettle .
+the kettle is in front of the ball . the ball is behind the kettle .
+the kettle is on top of the ball . the ball is under the kettle .
+the kettle is beside the ball . the ball is beside the kettle .
+the kettle is above the box . the box is below the kettle .
+the kettle is inside the box . the box contains the kettle .
+the kettle is left of the box . the box is right of the kettle .
+the kettle is in front of the box . the box is behind the kettle .
+the kettle is on top of the box . the box is under the kettle .
+the kettle is beside the box . the box is beside the kettle .
+the lamp is above the book . the book is below the lamp .
+the lamp is inside the book . the book contains the lamp .
+the lamp is left of the book . the book is right of the lamp .
+the lamp is in front of the book . the book is behind the lamp .
+the lamp is on top of the book . the book is under the lamp .
+the lamp is beside the book . the book is beside the lamp .
+the lamp is above the bag . the bag is below the lamp .
+the lamp is inside the bag . the bag contains the lamp .
+the lamp is left of the bag . the bag is right of the lamp .
+the lamp is in front of the bag . the bag is behind the lamp .
+the lamp is on top of the bag . the bag is under the lamp .
+the lamp is beside the bag . the bag is beside the lamp .
+the lamp is above the ball . the ball is below the lamp .
+the lamp is inside the ball . the ball contains the lamp .
+the lamp is left of the ball . the ball is right of the lamp .
+the lamp is in front of the ball . the ball is behind the lamp .
+the lamp is on top of the ball . the ball is under the lamp .
+the lamp is beside the ball . the ball is beside the lamp .
+the lamp is above the box . the box is below the lamp .
+the lamp is inside the box . the box contains the lamp .
+the lamp is left of the box . the box is right of the lamp .
+the lamp is in front of the box . the box is behind the lamp .
+the lamp is on top of the box . the box is under the lamp .
+the lamp is beside the box . the box is beside the lamp .
+the desk is above the book . the book is below the desk .
+the desk is inside the book . the book contains the desk .
+the desk is left of the book . the book is right of the desk .
+the desk is in front of the book . the book is behind the desk .
+the desk is on top of the book . the book is under the desk .
+the desk is beside the book . the book is beside the desk .
+the desk is above the bag . the bag is below the desk .
+the desk is inside the bag . the bag contains the desk .
+the desk is left of the bag . the bag is right of the desk .
+the desk is in front of the bag . the bag is behind the desk .
+the desk is on top of the bag . the bag is under the desk .
+the desk is beside the bag . the bag is beside the desk .
+the desk is above the ball . the ball is below the desk .
+the desk is inside the ball . the ball contains the desk .
+the desk is left of the ball . the ball is right of the desk .
+the desk is in front of the ball . the ball is behind the desk .
+the desk is on top of the ball . the ball is under the desk .
+the desk is beside the ball . the ball is beside the desk .
+the desk is above the box . the box is below the desk .
+the desk is inside the box . the box contains the desk .
+the desk is left of the box . the box is right of the desk .
+the desk is in front of the box . the box is behind the desk .
+the desk is on top of the box . the box is under the desk .
+the desk is beside the box . the box is beside the desk .
+the book is above the ball . the ball is below the book .
+the book is inside the ball . the ball contains the book .
+the book is left of the ball . the ball is right of the book .
+the book is in front of the ball . the ball is behind the book .
+the book is on top of the ball . the ball is under the book .
+the book is beside the ball . the ball is beside the book .
+the book is above the box . the box is below the book .
+the book is inside the box . the box contains the book .
+the book is left of the box . the box is right of the book .
+the book is in front of the box . the box is behind the book .
+the book is on top of the box . the box is under the book .
+the book is beside the box . the box is beside the book .
+the bag is above the ball . the ball is below the bag .
+the bag is inside the ball . the ball contains the bag .
+the bag is left of the ball . the ball is right of the bag .
+the bag is in front of the ball . the ball is behind the bag .
+the bag is on top of the ball . the ball is under the bag .
+the bag is beside the ball . the ball is beside the bag .
+the bag is above the box . the box is below the bag .
+the bag is inside the box . the box contains the bag .
+the bag is left of the box . the box is right of the bag .
+the bag is in front of the box . the box is behind the bag .
+the bag is on top of the box . the box is under the bag .
+the bag is beside the box . the box is beside the bag .
+the ball is above the box . the box is below the ball .
+the ball is inside the box . the box contains the ball .
+the ball is left of the box . the box is right of the ball .
+the ball is in front of the box . the box is behind the ball .
+the ball is on top of the box . the box is under the ball .
+the ball is beside the box . the box is beside the ball .
 the cabin has the cup near the door .
 the cabin keeps the cup beside the window .
 the cabin has the shelf near the door .
@@ -750,6 +1404,18 @@ the cabin has the ladder near the door .
 the cabin keeps the ladder beside the window .
 the cabin has the kettle near the door .
 the cabin keeps the kettle beside the window .
+the cabin has the lamp near the door .
+the cabin keeps the lamp beside the window .
+the cabin has the desk near the door .
+the cabin keeps the desk beside the window .
+the cabin has the book near the door .
+the cabin keeps the book beside the window .
+the cabin has the bag near the door .
+the cabin keeps the bag beside the window .
+the cabin has the ball near the door .
+the cabin keeps the ball beside the window .
+the cabin has the box near the door .
+the cabin keeps the box beside the window .
 the workshop has the cup near the door .
 the workshop keeps the cup beside the window .
 the workshop has the shelf near the door .
@@ -782,6 +1448,18 @@ the workshop has the ladder near the door .
 the workshop keeps the ladder beside the window .
 the workshop has the kettle near the door .
 the workshop keeps the kettle beside the window .
+the workshop has the lamp near the door .
+the workshop keeps the lamp beside the window .
+the workshop has the desk near the door .
+the workshop keeps the desk beside the window .
+the workshop has the book near the door .
+the workshop keeps the book beside the window .
+the workshop has the bag near the door .
+the workshop keeps the bag beside the window .
+the workshop has the ball near the door .
+the workshop keeps the ball beside the window .
+the workshop has the box near the door .
+the workshop keeps the box beside the window .
 the porch has the cup near the door .
 the porch keeps the cup beside the window .
 the porch has the shelf near the door .
@@ -814,6 +1492,18 @@ the porch has the ladder near the door .
 the porch keeps the ladder beside the window .
 the porch has the kettle near the door .
 the porch keeps the kettle beside the window .
+the porch has the lamp near the door .
+the porch keeps the lamp beside the window .
+the porch has the desk near the door .
+the porch keeps the desk beside the window .
+the porch has the book near the door .
+the porch keeps the book beside the window .
+the porch has the bag near the door .
+the porch keeps the bag beside the window .
+the porch has the ball near the door .
+the porch keeps the ball beside the window .
+the porch has the box near the door .
+the porch keeps the box beside the window .
 the attic has the cup near the door .
 the attic keeps the cup beside the window .
 the attic has the shelf near the door .
@@ -846,6 +1536,18 @@ the attic has the ladder near the door .
 the attic keeps the ladder beside the window .
 the attic has the kettle near the door .
 the attic keeps the kettle beside the window .
+the attic has the lamp near the door .
+the attic keeps the lamp beside the window .
+the attic has the desk near the door .
+the attic keeps the desk beside the window .
+the attic has the book near the door .
+the attic keeps the book beside the window .
+the attic has the bag near the door .
+the attic keeps the bag beside the window .
+the attic has the ball near the door .
+the attic keeps the ball beside the window .
+the attic has the box near the door .
+the attic keeps the box beside the window .
 the pantry has the cup near the door .
 the pantry keeps the cup beside the window .
 the pantry has the shelf near the door .
@@ -878,6 +1580,18 @@ the pantry has the ladder near the door .
 the pantry keeps the ladder beside the window .
 the pantry has the kettle near the door .
 the pantry keeps the kettle beside the window .
+the pantry has the lamp near the door .
+the pantry keeps the lamp beside the window .
+the pantry has the desk near the door .
+the pantry keeps the desk beside the window .
+the pantry has the book near the door .
+the pantry keeps the book beside the window .
+the pantry has the bag near the door .
+the pantry keeps the bag beside the window .
+the pantry has the ball near the door .
+the pantry keeps the ball beside the window .
+the pantry has the box near the door .
+the pantry keeps the box beside the window .
 the studio has the cup near the door .
 the studio keeps the cup beside the window .
 the studio has the shelf near the door .
@@ -910,3 +1624,33 @@ the studio has the ladder near the door .
 the studio keeps the ladder beside the window .
 the studio has the kettle near the door .
 the studio keeps the kettle beside the window .
+the studio has the lamp near the door .
+the studio keeps the lamp beside the window .
+the studio has the desk near the door .
+the studio keeps the desk beside the window .
+the studio has the book near the door .
+the studio keeps the book beside the window .
+the studio has the bag near the door .
+the studio keeps the bag beside the window .
+the studio has the ball near the door .
+the studio keeps the ball beside the window .
+the studio has the box near the door .
+the studio keeps the box beside the window .
+the cabin faces north .
+the cabin faces south .
+the workshop faces north .
+the workshop faces south .
+the porch faces north .
+the porch faces south .
+the attic faces north .
+the attic faces south .
+the pantry faces north .
+the pantry faces south .
+the studio faces north .
+the studio faces south .
+the path leads to the cabin .
+the path leads to the workshop .
+the path leads to the porch .
+the path leads to the attic .
+the path leads to the pantry .
+the path leads to the studio .

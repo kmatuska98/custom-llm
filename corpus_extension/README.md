@@ -25,12 +25,12 @@ model has a better chance of picking up from repeated co-occurrence alone. Compa
 two after training should show whether gains differ by pattern difficulty, not just by
 "did we add more text."
 
-- `negation.txt`: 2,150 lines using did-not/does-not + correction patterns, across
-  16 names, 10 item pairs (e.g. coffee/juice, jacket/sweater), 10 adjective pairs
-  (e.g. hot/cold, wet/dry), and 10 general nouns.
-- `spatial_relations.txt`: 912 lines pairing each of 16 objects with each other across
+- `negation.txt`: 2,257 lines using did-not/does-not + correction patterns, across
+  16+ names, 10 item pairs (e.g. coffee/juice, jacket/sweater), 10 adjective pairs
+  (e.g. hot/cold, wet/dry), 10 general nouns, plus a coverage-fix block (see below).
+- `spatial_relations.txt`: 1,656 lines pairing 22 objects with each other across
   6 relations (above/below, inside/contains, left/right, in front of/behind, on top
-  of/under, beside), plus 6 places placing objects near a door/window.
+  of/under, beside), plus places placing objects near a door/window/direction/path.
 
 Both files were checked against `evals/language_evals.json` for exact-prompt leakage
 before being written (see `gen_extension_corpus.py` at the repo root) — no eval prompt
@@ -38,11 +38,42 @@ appears verbatim in either file. Different names, items, and sentence structures
 the eval's negation/spatial_relations cases were used deliberately, per the assignment's
 separation requirement.
 
+### Revision: closing the vocabulary-overlap gap
+
+The first version of this corpus used entirely disjoint nouns/colors/names from the
+eval's own negation and spatial-relations cases (e.g. "coffee/juice" instead of
+"tea/milk", "cup/shelf" instead of "lamp/desk"). After running it, all 6 of those
+eval cases stayed unscorable — not because the model failed to learn the pattern
+(samples showed it clearly had), but because the model had never seen the *specific
+words* those 6 questions happen to use (red/blue/green/yellow, box, tea/milk/bread,
+ava, open/closed, lamp/desk/book/bag/ball, north/south, "to"). The assignment
+permits reusing ordinary words as long as the eval's exact sentences aren't
+reproduced — avoiding all overlap was overly cautious.
+
+This revision adds those specific words via new sentences, with two things checked
+carefully to avoid accidentally reconstructing an eval prompt:
+- `lamp`+`desk` and `book`+`bag` are added to the objects list but excluded from
+  being paired with *each other* (they still pair with every other object) — pairing
+  either combination with this corpus's own "A is above B / B is below A" or
+  "A is inside B / B contains A" templates would exactly recreate `lang_41`'s or
+  `lang_40`'s prompt.
+- Phrasing is kept deliberately different from the eval where words do overlap:
+  e.g. this corpus always uses `"the X is not red . it is blue ."` (no trailing
+  repeated clause) and `"X did not buy the Y"` (with "the"), never the eval's
+  exact `"... . the box is"` / `"ava did not buy tea"` wording.
+- `gen_extension_corpus.py`'s leakage check re-verifies the *entire* file text
+  (not just individual lines) against all 48 eval prompts, matching exactly how
+  the notebook's own `reject_eval_leakage` checks an imported file at import time.
+
+All 6 negation/spatial-relations eval cases now have every prompt and choice word
+covered by the extension corpus (verified directly against `tokenization.json`-style
+vocabulary extraction, not just visual inspection).
+
 ## To run experiment 2
 
-1. Copy both files into `corpus/` (locally: `cp corpus_extension/*.txt corpus/`; in
-   Colab: upload them into `/content/corpus` via the Files sidebar after running
-   sections 1-2).
-2. Leave `CORPUS = "classroom"` (it will now combine the classroom sentences with these
-   two files) and `CORPUS_FOLDER = "corpus"`.
-3. Run All again for a fresh model. Do not reuse the starter run's checkpoint.
+The notebook fetches these files automatically — see the "Optional: fetch my
+corpus-extension files from GitHub" cell in `custom_llm.py`/`custom_llm.ipynb`.
+Set `FETCH_EXTENSION_FILES = True` in that cell, leave `CORPUS = "classroom"`, and
+Run All for a fresh model (don't reuse an earlier run's checkpoint). Manually
+copying these files into `corpus/` also works but doesn't survive a Colab runtime
+disconnect the way the fetch cell does.

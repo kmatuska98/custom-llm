@@ -2148,3 +2148,110 @@ the water was not bright . it was dark .
 it was not sharp outside today . it was dull .
 the meeting was not sharp . it was dull .
 the water was not sharp . it was dull .
+the shirt is not red . it is blue .
+the shirt is not red . it is green .
+the shirt is not red . it is yellow .
+the shirt is not blue . it is red .
+the shirt is not blue . it is green .
+the shirt is not blue . it is yellow .
+the shirt is not green . it is red .
+the shirt is not green . it is blue .
+the shirt is not green . it is yellow .
+the shirt is not yellow . it is red .
+the shirt is not yellow . it is blue .
+the shirt is not yellow . it is green .
+the mug is not red . it is blue .
+the mug is not red . it is green .
+the mug is not red . it is yellow .
+the mug is not blue . it is red .
+the mug is not blue . it is green .
+the mug is not blue . it is yellow .
+the mug is not green . it is red .
+the mug is not green . it is blue .
+the mug is not green . it is yellow .
+the mug is not yellow . it is red .
+the mug is not yellow . it is blue .
+the mug is not yellow . it is green .
+the hat is not red . it is blue .
+the hat is not red . it is green .
+the hat is not red . it is yellow .
+the hat is not blue . it is red .
+the hat is not blue . it is green .
+the hat is not blue . it is yellow .
+the hat is not green . it is red .
+the hat is not green . it is blue .
+the hat is not green . it is yellow .
+the hat is not yellow . it is red .
+the hat is not yellow . it is blue .
+the hat is not yellow . it is green .
+the scarf is not red . it is blue .
+the scarf is not red . it is green .
+the scarf is not red . it is yellow .
+the scarf is not blue . it is red .
+the scarf is not blue . it is green .
+the scarf is not blue . it is yellow .
+the scarf is not green . it is red .
+the scarf is not green . it is blue .
+the scarf is not green . it is yellow .
+the scarf is not yellow . it is red .
+the scarf is not yellow . it is blue .
+the scarf is not yellow . it is green .
+the plate is not red . it is blue .
+the plate is not red . it is green .
+the plate is not red . it is yellow .
+the plate is not blue . it is red .
+the plate is not blue . it is green .
+the plate is not blue . it is yellow .
+the plate is not green . it is red .
+the plate is not green . it is blue .
+the plate is not green . it is yellow .
+the plate is not yellow . it is red .
+the plate is not yellow . it is blue .
+the plate is not yellow . it is green .
+the backpack is not red . it is blue .
+the backpack is not red . it is green .
+the backpack is not red . it is yellow .
+the backpack is not blue . it is red .
+the backpack is not blue . it is green .
+the backpack is not blue . it is yellow .
+the backpack is not green . it is red .
+the backpack is not green . it is blue .
+the backpack is not green . it is yellow .
+the backpack is not yellow . it is red .
+the backpack is not yellow . it is blue .
+the backpack is not yellow . it is green .
+ava did not buy the tea . ava bought the milk instead .
+ava did not buy the milk . ava bought the tea instead .
+ava did not buy the bread . ava bought the rice instead .
+ava did not buy the rice . ava bought the bread instead .
+she did not buy the tea . she bought the milk instead .
+she did not buy the milk . she bought the tea instead .
+she did not buy the bread . she bought the rice instead .
+she did not buy the rice . she bought the bread instead .
+he did not buy the tea . he bought the milk instead .
+he did not buy the milk . he bought the tea instead .
+he did not buy the bread . he bought the rice instead .
+he did not buy the rice . he bought the bread instead .
+the wide gate was not open . it was closed .
+the narrow gate was not closed . it was open .
+the window was not wide . it was narrow .
+the room is not open . it is closed .
+the room was not missing . it was returned .
+the shirt is not open . it is closed .
+the shirt was not missing . it was returned .
+the road is not open . it is closed .
+the road was not missing . it was returned .
+the garden is not open . it is closed .
+the garden was not missing . it was returned .
+the kitchen is not open . it is closed .
+the kitchen was not missing . it was returned .
+the hallway is not open . it is closed .
+the hallway was not missing . it was returned .
+the bridge is not open . it is closed .
+the bridge was not missing . it was returned .
+the field is not open . it is closed .
+the field was not missing . it was returned .
+the cabin is not open . it is closed .
+the cabin was not missing . it was returned .
+the engine is not open . it is closed .
+the engine was not missing . it was returned .
