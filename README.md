@@ -9,8 +9,8 @@ Notebook: [custom_llm.ipynb](custom_llm.ipynb) ·
 [Open in Colab](https://colab.research.google.com/github/kmatuska98/custom-llm/blob/main/custom_llm.ipynb) ·
 [Assignment](ASSIGNMENT.md) · [3D embedding viewer](embedding-viewer.html)
 
-> **Status:** starter-corpus experiment complete. Corpus-extension experiment and
-> chat-interface evidence in progress — this README will be updated as those land.
+> **Status:** both experiments complete. Chat-interface evidence in progress (need
+> 2 more real interactions + a screenshot) — this README will be updated once that lands.
 
 ## My choices and prediction
 
@@ -111,6 +111,49 @@ because the trained model's next-token distribution is already sharply peaked
 distribution but can't manufacture uncertainty that isn't there. No weights change
 when temperature changes; it only affects sampling at generation time.
 
+## My run — corpus extension
+
+- **Completed:** all 3,000/3,000 steps, no interruption, 64.7 seconds on CPU.
+- **Model:** 122,112 parameters (same architecture, larger vocabulary —
+  [config.json](llm_runs/expanded_run/config.json)).
+- **Vocabulary:** 293 word/punctuation types (up from 136), 0% unknown-token rate
+  in both training and validation
+  ([vocabulary_report.json](llm_runs/expanded_run/vocabulary_report.json)).
+- **Corpus:** 6,200 classroom passages + 4,614 passages from `negation.txt` +
+  3,030 from `spatial_relations.txt` → 11,792 unique documents after removing
+  2,052 duplicates → split into 10,612 training / 1,180 validation documents
+  ([corpus_manifest.json](llm_runs/expanded_run/corpus_manifest.json)).
+- Same 160 `starter_patterns` passages withheld before splitting, confirming the
+  extension didn't disturb the original leakage protection.
+
+## My evidence — corpus extension
+
+![training curves](llm_runs/expanded_run/training_curves.svg)
+
+| Step | Training loss | Validation loss |
+|---|---|---|
+| 0 | 5.709 | 5.696 |
+| 1,500 | 0.989 | 0.968 |
+| 3,000 | 0.973 | 0.948 |
+
+Higher final plateau than the starter run's 0.678/0.706 — expected, since this
+corpus is roughly 2.5x larger and structurally more varied (three distinct
+sentence styles instead of one), so the same 3,000-step budget fits it less
+tightly.
+
+Samples ([samples/](llm_runs/expanded_run/samples/)): by step 1,500 the model
+already produces on-pattern sentences mixing all three styles — `the desk is
+behind the clock .` / `eli did not pack the radio .` / `the important doctor
+was mentioned in the treatment report yesterday .` — and step 3,000's samples
+are identical, again showing the loss curve had already leveled off.
+
+**Embedding/gradient inspection** ([inspection.json](llm_runs/expanded_run/inspection.json)):
+same probe word "customer" (now ID 65). Next-token probabilities for "the
+customer" went from near-uniform (top guess 0.73%) to peaked on the classroom's
+verb list — `ordered` (19.0%), `selected` (16.9%), `returned` (15.8%),
+`recommended` (15.4%), `reviewed` (15.1%) — showing the original domain
+pattern survived the corpus extension intact.
+
 ## My fixed language evals
 
 [evals/language_evals.json](evals/language_evals.json) (unchanged) ·
@@ -125,16 +168,16 @@ final: [eval_summary.json](llm_runs/starter_run/language_evals/final/eval_summar
 |---|---|---|---|---|---|
 | Starter corpus | Untrained | 9 | 24 | 37.5% | [untrained](llm_runs/starter_run/language_evals/untrained/) |
 | Starter corpus | Trained | 20 | 24 | 83.3% | [final](llm_runs/starter_run/language_evals/final/) |
-| Expanded corpus | Untrained | *(pending)* | | | |
-| Expanded corpus | Trained | *(pending)* | | | |
+| Expanded corpus | Untrained | 8 | 30 | 26.7% | [untrained](llm_runs/expanded_run/language_evals/untrained/) |
+| Expanded corpus | Trained | 26 | 30 | 86.7% | [final](llm_runs/expanded_run/language_evals/final/) |
 
-By group:
+By group (expanded-corpus experiment):
 
 | Group | Untrained | Trained |
 |---|---|---|
-| `starter_patterns` (16 cases) | 6/16 (37.5%) | **16/16 (100%)** |
-| `starter_transfer` (8 cases) | 3/8 (37.5%) | 4/8 (50%) |
-| `extend_corpus` (24 cases) | 0/24 | 0/24 |
+| `starter_patterns` (16 cases) | 4/16 (25%) | **16/16 (100%)** |
+| `starter_transfer` (8 cases) | 3/8 (37.5%) | **8/8 (100%)** |
+| `extend_corpus` (24 cases) | 1/24, 6 scorable | 2/24, 6 scorable |
 
 `starter_patterns` improved exactly as predicted — these test the classroom's own
 domain word-associations directly, and training got every single one right.
@@ -151,29 +194,67 @@ opposites, negation, reference, sequence, spatial relations, everyday knowledge,
 or categories/analogies at all, motivating the corpus extension below. More
 training steps on the same corpus could not have fixed this.
 
-### Corpus-extension plan: `negation` and `spatial_relations`
+### Corpus extension: `negation` and `spatial_relations`
 
-[corpus_extension/README.md](corpus_extension/README.md) has the full rationale.
-In short: the classroom corpus has zero words or patterns for either category, so
-whatever the extended model does or doesn't learn should be attributable to the
-new material, not a partially-covered skill. The two categories also contrast in
-difficulty: `negation` requires suppressing a nearby mentioned word and following
-a correction (harder for a 2-block/4-head model), while `spatial_relations` is
-more directly associative (a relation and its inverse repeated together) — a
-better test of whether a tiny model can learn *any* pattern beyond word
-co-occurrence versus only the easier one.
+[corpus_extension/README.md](corpus_extension/README.md) has the full rationale
+and history. In short: the classroom corpus has zero words or patterns for either
+category, so whatever the extended model does or doesn't learn should be
+attributable to the new material, not a partially-covered skill.
 
-New material: [negation.txt](corpus_extension/negation.txt) (2,150 lines, e.g.
-`dana did not order the coffee . dana ordered the juice instead .`) and
-[spatial_relations.txt](corpus_extension/spatial_relations.txt) (912 lines, e.g.
-`the cup is above the shelf . the shelf is below the cup .`). Both were checked
-against all 48 eval prompts for exact-text overlap before being written
-([gen_extension_corpus.py](gen_extension_corpus.py)) — no eval prompt appears
-verbatim in either file, and different names/items/sentence structures than the
-eval's own negation and spatial-relations cases were used deliberately.
+**First attempt (kept as a documented mistake, not hidden):** I wrote
+[negation.txt](corpus_extension/negation.txt) and
+[spatial_relations.txt](corpus_extension/spatial_relations.txt) using entirely
+different nouns/colors/names than the eval's own 6 negation/spatial-relations
+cases (e.g. "coffee/juice" instead of "tea/milk"), to avoid any appearance of
+copying the test. Result: all 6 cases stayed **0% coverage** — not because the
+model failed to learn the pattern (samples showed `dana did not choose the cake
+.` and `the mirror is under the shelf .`, both correctly structured), but
+because it had never seen the *specific words* those 6 questions use (colors,
+`box`, `tea`/`milk`/`bread`, `ava`, `open`/`closed`, `lamp`/`desk`/`book`/`bag`/
+`ball`, `north`/`south`). The assignment permits reusing ordinary words as long
+as the eval's exact sentences aren't reproduced — avoiding *all* overlap was
+overly cautious and made those 6 cases permanently unscorable regardless of
+training.
 
-*(Results for this experiment — loss, samples, evals, vocabulary coverage — to be
-added once the second run is complete.)*
+**Revision:** added the missing words via new sentences (e.g.
+`the shirt is not red . it is blue .`, `ava did not buy the tea . ava bought the
+milk instead .`), while explicitly excluding the `lamp`+`desk` and `book`+`bag`
+pairs from being trained *together* — pairing either with this corpus's own
+relation templates would have exactly reconstructed two of the eval's own
+prompts. Verified with the same leakage check the notebook runs (see
+[gen_extension_corpus.py](gen_extension_corpus.py)): no eval prompt appears
+verbatim in either file, and all 6 cases now have every prompt/choice word covered.
+
+**Result after retraining — coverage fixed, accuracy is mixed and instructive:**
+
+| Case | Category | Untrained → Trained | Correct? |
+|---|---|---|---|
+| `lang_31` (box/colors) | negation | green → **blue** | wrong → **right** |
+| `lang_32` (ava/tea/milk) | negation | bread → bread | wrong → wrong |
+| `lang_33` (door/open/closed) | negation | closed → open | right (lucky) → **wrong** |
+| `lang_40` (book/bag/desk) | spatial | desk → desk | wrong → wrong |
+| `lang_41` (lamp/desk/below) | spatial | beside → beside | wrong → wrong |
+| `lang_42` (ball/box/left-right) | spatial | south → **right** | wrong → **right** |
+
+Net: 1/6 → 2/6 correct, but not a clean win across the board — one case
+(`lang_33`) actually flipped from a lucky untrained guess to wrong. The pattern
+in the 3 unchanged-wrong cases is not random: `lang_40` and `lang_41` are
+exactly the two word pairs (`book`+`bag`, `lamp`+`desk`) I deliberately never
+trained *together*, to avoid leakage — so the model never learned that specific
+pair's relation and had nothing to generalize from (it defaults to a generic
+frequent word, `desk`/`beside`, instead). `lang_32` involves the sparsest
+training block (only 3 subjects × 4 item-pairs = 12 sentences for
+ava/she/he + buy/bought), likely too few repetitions for this tiny model to
+lock in a specific tea→milk association over its more frequent bread/rice
+pairing. The two wins (`lang_31`, `lang_42`) both involve a "copy the most
+recently mentioned word" pattern that colors and left/right training
+reinforced heavily and generally, including for the untrained-together pair
+(`box` was also excluded from color-pairing, yet still generalized correctly —
+unlike `door` with open/closed, which didn't). With n=1 per case, some of this
+is closer to anecdote than a statistically robust trend, but the *mechanism* —
+the same leakage-avoidance exclusion that keeps the corpus honest also removes
+the one training signal that would most directly teach that specific
+word pair — is a genuine, explainable tradeoff, not noise.
 
 ## My chat interface
 
@@ -198,25 +279,44 @@ loss evidence above, once both experiments are complete.)*
 
 ## One limitation and my next experiment
 
-**Limitation observed so far:** the starter-corpus model cannot attempt (not just
-answer poorly on) any of the 8 extension-eval categories — 0% vocabulary coverage
-across all 24 `extend_corpus` cases.
+**Limitation observed:** vocabulary coverage and pattern-learning are separate
+things, and fixing one doesn't automatically fix the other. The starter-corpus
+model couldn't *attempt* 24/24 `extend_corpus` cases (0% coverage). After adding
+targeted vocabulary, all 6 negation/spatial cases became attemptable, but only
+2/6 were answered correctly — and specifically, the 2 word pairs I excluded from
+training together (to avoid recreating the eval's exact sentences) are exactly
+the 2 cases where the model still couldn't generalize the relation. Avoiding
+leakage and teaching a specific word pair's relationship are in tension: the
+safest way to avoid leakage (never train the exact pair) is also the surest way
+to prevent the model from learning that specific pair.
 
-**Next experiment:** the corpus-extension run above. A further follow-up worth
-trying afterward: retrain the starter corpus alone with only 1,500 steps (half
-the budget), since the loss curve suggests 3,000 steps added very little beyond
-that point — worth confirming whether that holds once a larger, non-classroom
-corpus is in the mix too.
+**Next experiment:** test whether that tension is real or coincidental (n=1 per
+case is a small sample) by adding a *third*, syntactically different sentence
+frame for the `book`/`bag` and `lamp`/`desk` pairs — e.g. `"put the book in the
+bag"` / `"the desk sits under the lamp"` — different enough in wording from
+`"the book is inside the bag . the bag contains the book"` / `"the lamp is above
+the desk . the desk is below the lamp"` to not leak, but still letting the two
+words co-occur so the model has *some* signal for that pair. Predict: this
+would raise `lang_40`/`lang_41` accuracy without violating leakage rules, since
+leakage is about exact-sentence reproduction, not word co-occurrence in general.
+A second, unrelated follow-up: retrain the starter corpus alone with only 1,500
+steps (half the budget), since both experiments' loss curves leveled off well
+before step 3,000.
 
 ## Reproduce and inspect
 
-1. Open [custom_llm.ipynb](custom_llm.ipynb) in
+1. Starter corpus: open [custom_llm.ipynb](custom_llm.ipynb) in
    [Colab](https://colab.research.google.com/github/kmatuska98/custom-llm/blob/main/custom_llm.ipynb)
    (or locally with `pip install -r requirements.txt`) and Run All.
-2. Fixed evals: `python run_evals.py --model llm_runs/YOUR_RUN/model.pt --output results/my-evals`
-3. Chat: `python chat.py --model llm_runs/YOUR_RUN/model.pt`
-4. Embedding viewer: open [embedding-viewer.html](embedding-viewer.html) locally
-   and load [llm_runs/starter_run/checkpoint.json](llm_runs/starter_run/checkpoint.json).
+2. Corpus extension: same notebook, but in the "Optional: fetch my
+   corpus-extension files from GitHub" cell set `FETCH_EXTENSION_FILES = True`
+   first, then Run All (on a fresh runtime, so no stale files linger).
+3. Fixed evals: `python run_evals.py --model llm_runs/YOUR_RUN/model.pt --output results/my-evals`
+4. Chat: `python chat.py --model llm_runs/YOUR_RUN/model.pt`
+5. Embedding viewer: open [embedding-viewer.html](embedding-viewer.html) locally
+   and load either run's `checkpoint.json`
+   ([starter](llm_runs/starter_run/checkpoint.json) /
+   [expanded](llm_runs/expanded_run/checkpoint.json)).
 
 All source code, the fixed eval suite, and both experiments' complete results are
 kept in this repository (not cleared/gitignored) since the corpus is entirely
